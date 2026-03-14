@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+
+# Outputs
+*.jpeg
+*.jpg
+*.png
+adaptability_*.csv
+exploratoriness_*.csv
+master_items.csv
+
+# macOS
+.DS_Store
