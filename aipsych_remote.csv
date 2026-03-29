@@ -10,10 +10,12 @@ maladaptive,Colorful,"Expressive, dramatic, distractible, attention seeking, and
 maladaptive,Imaginative,"Creative, eccentric, impractical, and idiosyncratic in thoughts and ideas. High scorers avoid details, are easily bored, lack awareness of their impact on others, and often fail to see the practical limitations of their suggestions."
 maladaptive,Diligent,"Meticulous, perfectionistic, critical, and inflexible about rules and procedures. High scorers micromanage their staff, find it hard to delegate, and have difficulty setting meaningful priorities for themselves and their subordinates."
 maladaptive,Dutiful,"Eager to please, reliant on others for guidance, and reluctant to take action independently. High scorers have difficulty making decisions on their own, may not stick up for subordinates, and promise more than they can deliver."
-typical,Extraversion," Warmth, Gregariousness, Assertiveness, Activity, Excitement Seeking, Positive Emotions."
-typical,Agreeableness,"Trust, Straightforwardness, Altruism, Compliance, Modesty, Tender-Mindedness."
-typical,Conscientiousness,"Competence, Order, Dutifulness, Achievement Striving, Self-Discipline, Deliberation."
-typical,Neuroticism,"Anxiety, Angry Hostility, Depression, Self Consciousness, Impulsivenes, Vulnerability."
-typical,Openness,"Fantasy, Aesthetics, Feelings, Actions, Ideas, Values."
+big_5,Extraversion," Warmth, Gregariousness, Assertiveness, Activity, Excitement Seeking, Positive Emotions."
+big_5,Agreeableness,"Trust, Straightforwardness, Altruism, Compliance, Modesty, Tender-Mindedness."
+big_5,Conscientiousness,"Competence, Order, Dutifulness, Achievement Striving, Self-Discipline, Deliberation."
+big_5,Neuroticism,"Anxiety, Angry Hostility, Depression, Self Consciousness, Impulsivenes, Vulnerability."
+big_5,Openness,"Fantasy, Aesthetics, Feelings, Actions, Ideas, Values."
 remote,Adaptability,"ability, skill, disposition, willingness, and/or motivation to change or fit different task, social, or environmental features"
 remote,Exploratoriness,"refers to individual differences in the tendency to seek out new experiences and to be willing to explore ideas, values, emotions, and sensations that differ from their previous experience or established preferences"
+grit,Consistency of Interest,Maintaining focus on a single ambition. Resisting the urge to shift to new projects or obsessions.
+grit,Perseverance of Effort,Sustaining hard work through setbacks. Finishing initiated tasks despite difficulties.
