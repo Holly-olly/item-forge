@@ -1,0 +1,11 @@
+,Item_Text,Model,Condition,Scale,disc_score,cosine_sim,EGA_match%
+1,My focus on a single ambition is strong.,gemini,gemini × No-RAG,Consistency of Interest,0.3788,0.7237,100.0
+2,It's challenging for me to focus on a single ambition.,gpt,gpt × RAG,Consistency of Interest,0.3106,0.6598,100.0
+3,I resist the urge to frequently switch my primary focus.,deepseek,deepseek × No-RAG,Consistency of Interest,0.3089,0.6286,97.6
+4,Can focus on a single goal for a long time.,llama,llama × Re-Ranked RAG,Consistency of Interest,0.3035,0.7478,100.0
+5,My focus doesn't get scattered by new ideas.,deepseek,deepseek × RAG,Consistency of Interest,0.303,0.5577,100.0
+6,"When I am focused on a main aim, I rarely let my attention wander.",deepseek,deepseek × No-RAG,Consistency of Interest,0.2969,0.6212,97.6
+7,My attention shifts rapidly between interests.,gemini,gemini × Re-Ranked RAG,Consistency of Interest,0.2969,0.5072,89.7
+8,Discipline is required to maintain focus on a single objective.,deepseek,deepseek × Re-Ranked RAG,Consistency of Interest,0.2932,0.6582,96.0
+9,I frequently shift my focus to fleeting interests.,gpt,gpt × Re-Ranked RAG,Consistency of Interest,0.2914,0.5652,95.3
+10,I possess the ability to maintain focus on a singular objective.,gemini,gemini × No-RAG,Consistency of Interest,0.2848,0.6748,100.0

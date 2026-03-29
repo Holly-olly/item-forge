@@ -1,0 +1,13 @@
+Condition,n_before_exclusion,n_neg_disc_removed,n_human_review,CI_items,PE_items
+deepseek × No-RAG,74,5,69,35,34
+deepseek × Re-Ranked RAG,72,4,68,30,38
+gemini × Re-Ranked RAG,74,7,67,31,36
+gemini × No-RAG,78,12,66,33,33
+gpt × Re-Ranked RAG,73,9,64,30,34
+gpt × No-RAG,70,7,63,27,36
+deepseek × RAG,66,4,62,30,32
+llama × No-RAG,68,6,62,32,30
+gemini × RAG,75,14,61,33,28
+llama × RAG,66,9,57,29,28
+gpt × RAG,63,7,56,24,32
+llama × Re-Ranked RAG,67,11,56,25,31

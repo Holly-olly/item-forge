@@ -1,0 +1,847 @@
+Condition,Model,RAG_type,Scale,Item_Text,disc_score,loading_CI,loading_PE,cosine_sim
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I stick with my goals despite distractions.,0.0709,0.565,0.248,0.5348
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My long-term ambitions are always clear to me.,0.125,0.719,-0.002,0.4239
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am dedicated to seeing my main projects through.,0.0218,0.575,0.181,0.4636
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,It is rare for me to suddenly become uninterested in something I was passionate about.,0.1671,0.333,0.252,0.3856
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My focus remains unwavering on my primary objectives.,0.2407,0.866,-0.071,0.588
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I have difficulty getting bored with tasks I know well.,0.0302,0.126,0.614,0.4303
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,"My interests are deep, not fleeting.",0.1461,0.637,-0.003,0.3969
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am patient in achieving my principal ambitions.,0.0522,0.599,0.119,0.4364
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I tend to follow through on my main ideas without deviation.,0.1106,0.642,0.17,0.495
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My core interests rarely lose my attention.,0.2284,0.747,-0.012,0.4929
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am single-minded in my professional aspirations.,0.2675,0.73,-0.056,0.5284
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My main ambition stays the consistent focus of my energy.,0.2046,0.901,-0.107,0.6121
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I avoid letting new ideas derail my primary goals.,0.1885,0.602,0.16,0.5612
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I maintain a steady concentration on my fundamental ambitions.,0.1944,0.873,-0.068,0.6114
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My primary interest usually absorbs my thoughts first.,0.2323,0.706,-0.011,0.4566
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am persistent with the causes I choose to pursue.,-0.0128,0.535,0.238,0.4293
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My ambitions are typically long-term and stable.,0.0954,0.695,-0.001,0.4156
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am reluctant to shift my main efforts from a successful path.,0.1309,0.55,0.199,0.5162
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My energy is usually directed towards my central interests.,0.1697,0.721,-0.054,0.4176
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I do not often entertain shifting my fundamental ambitions.,0.2163,0.668,0.03,0.4614
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am steadfast in the direction of my primary drive.,0.1327,0.817,-0.085,0.4436
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,"When I am focused on a main aim, I rarely let my attention wander.",0.2969,0.671,0.094,0.6212
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My principal goals keep my motivation consistent over time.,0.019,0.664,0.022,0.4438
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I prefer to delve deeply rather than pursue many things lightly.,0.1635,0.436,0.232,0.4329
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My commitment to my most important ideas remains strong.,0.0892,0.723,-0.038,0.4213
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I have a consistent drive toward a specific type of achievement.,0.0889,0.579,0.175,0.5036
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,"I am dedicated to the cause I have chosen, especially its main aspects.",0.1028,0.712,-0.013,0.4044
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I resist the urge to frequently switch my primary focus.,0.3089,0.63,0.142,0.6286
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am not easily sidetracked from my main objective.,0.181,0.605,0.202,0.5087
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My fundamental motivations guide my actions consistently.,0.0503,0.766,-0.07,0.3789
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I tend not to change my main interest for a different one.,0.2691,0.669,0.022,0.4805
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,"I remain loyal to my chosen path, even if it takes time.",0.0445,0.572,0.12,0.415
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I find myself consistently returning to the same types of interests.,0.1537,0.542,0.087,0.4288
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My most cherished ambitions are the ones I pursue first.,0.095,0.618,0.002,0.4046
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,I am determined to maintain my focus on my main professional goals.,0.1692,0.781,-0.007,0.5747
+deepseek × No-RAG,deepseek,No-RAG,Consistency of Interest,My primary drive rarely gets tangled with other passing fascinations.,0.2074,0.608,0.012,0.4313
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"I finish tasks, even difficult ones, well.",0.2351,-0.014,0.784,0.5561
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I do not quit my tasks until they are done.,0.0526,0.089,0.646,0.4092
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"When something is begun, I complete it, no matter what.",0.1212,0.178,0.574,0.4531
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"I try my best on every task, even if it fails.",0.1298,0.135,0.579,0.4277
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I have the determination to push through setbacks.,0.2276,0.279,0.429,0.5912
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I do not easily give up on the things I start.,0.0689,0.118,0.691,0.4478
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"I can keep going, even when things are tough.",0.208,0.125,0.511,0.4923
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I dislike unfinished tasks.,0.0769,-0.073,0.712,0.3617
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I let difficulties distract me from finishing what I began.,0.1213,0.038,0.693,0.4829
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"When a task requires effort, I see it through.",0.1508,0.12,0.683,0.5487
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I persist in my tasks until they are finished.,0.0702,0.287,0.561,0.5414
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I find it hard to complete a started job.,0.2068,-0.127,0.834,0.5038
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I often drop things that I am doing.,-0.025,0.113,0.472,0.2597
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I can be stubborn about finishing my tasks.,0.0602,0.095,0.707,0.4629
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"When I start something, I try to see it to the end.",0.08,0.209,0.552,0.4522
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I complete what I set out to do.,0.1058,0.265,0.456,0.4454
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I stop myself from quitting tasks mid-way.,0.0182,0.083,0.69,0.4922
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I have difficulty with persistence.,0.0154,0.257,0.485,0.4611
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I easily get discouraged and stop trying.,0.0614,-0.014,0.677,0.3568
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I abandon my efforts when faced with difficulty.,0.1009,0.007,0.721,0.4256
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I find it very easy to quit an uninteresting task.,-0.0478,-0.033,0.69,0.3229
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"When tasks are challenging, I quickly stop trying.",0.0817,-0.114,0.87,0.4601
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"I dislike difficult tasks, so I avoid them often.",0.0982,-0.154,0.838,0.3517
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"If something does not come easily, I give up.",0.1393,-0.092,0.741,0.3483
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I stop when the going gets rough.,0.0972,0.088,0.532,0.4024
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I am easily dissuaded from completing my tasks.,0.0352,-0.042,0.828,0.3837
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"I am prone to start many things, but complete few.",0.0276,0.149,0.586,0.3884
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I frequently change my mind about tasks I undertake.,-0.0587,0.193,0.549,0.3263
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,"I can persevere, even in challenging projects.",0.1573,0.182,0.591,0.596
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I have trouble seeing things through to the end.,0.0752,0.104,0.578,0.4036
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I find it easy to get started but hard to finish.,0.1536,-0.042,0.729,0.4617
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I give up easily on demanding tasks.,0.0498,-0.114,0.845,0.3684
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I can power through difficult tasks.,0.2329,0.047,0.693,0.556
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I am able to maintain effort until the job is finished.,0.1235,0.134,0.623,0.5665
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I do not feel strong enough to complete difficult tasks.,0.1624,-0.043,0.712,0.4112
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I avoid starting tasks I know will be difficult.,0.1015,-0.096,0.811,0.4448
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I can keep going even after several failures.,0.1889,0.136,0.483,0.4785
+deepseek × No-RAG,deepseek,No-RAG,Perseverance of Effort,I tend to lose focus on tasks that are too difficult.,-0.0534,0.068,0.713,0.3951
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I remain fully committed to my original goals.,0.0774,0.7,0.022,0.4484
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I can work effectively on the same task for long periods.,-0.025,0.494,-0.174,0.3758
+deepseek × RAG,deepseek,RAG,Consistency of Interest,"When working on a project, I maintain a clear direction.",0.1177,0.648,-0.054,0.5349
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I resist the urge to suddenly start a completely new endeavor.,0.1679,0.428,-0.269,0.5245
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I focus my efforts intensely on the things I choose.,0.2174,0.782,0.066,0.5601
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I find it easy to stick with a plan over months.,0.0,0.361,-0.262,0.3433
+deepseek × RAG,deepseek,RAG,Consistency of Interest,My focus doesn't get scattered by new ideas.,0.303,0.718,0.069,0.5577
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I can maintain interest in a topic for sustained periods.,0.0794,0.696,-0.007,0.5064
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I have the ability to delay exploring new options for my main goal.,0.1142,0.658,-0.037,0.4822
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I have strong staying power with the things I start.,-0.0784,0.532,-0.265,0.4487
+deepseek × RAG,deepseek,RAG,Consistency of Interest,My attention stays locked on what I'm working towards.,0.1808,0.762,0.012,0.5783
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I am willing to see an idea through to completion.,-0.1067,0.371,-0.237,0.3032
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I can ignore distractions to maintain progress.,0.0618,0.606,-0.202,0.5624
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I don't frequently change my primary focus.,0.2607,0.73,0.068,0.4928
+deepseek × RAG,deepseek,RAG,Consistency of Interest,My dedication remains strong even in difficult times.,-0.0828,0.432,-0.279,0.3798
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I resist shifting my energy to new projects.,0.2171,0.56,-0.124,0.568
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I have a clear long-term objective I'm focused on.,0.1901,0.803,0.14,0.5075
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I don't let my interest fade quickly.,0.159,0.641,-0.085,0.4638
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I avoid getting sidetracked by less important matters.,0.2055,0.623,-0.074,0.5103
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I have the capacity to follow through without shifting.,0.037,0.587,-0.119,0.4486
+deepseek × RAG,deepseek,RAG,Consistency of Interest,My commitment is unwavering to my key ambitions.,0.1131,0.661,-0.023,0.477
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I minimize time spent on distractions.,0.1801,0.545,-0.011,0.4537
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I persistently pursue the things I value most.,0.0543,0.631,-0.122,0.5006
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I don't easily become interested in multiple new things.,0.2239,0.403,-0.21,0.4014
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I keep my focus intensely concentrated on my main goal.,0.2722,0.877,0.123,0.6474
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I resist being drawn away by emerging interests.,0.2459,0.682,-0.017,0.5787
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I don't frequently shift between different priorities.,0.2003,0.605,-0.045,0.4583
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I stay dedicated to achieving my chosen objectives.,0.0738,0.737,-0.017,0.5072
+deepseek × RAG,deepseek,RAG,Consistency of Interest,My interests are stable and enduring.,0.0809,0.744,0.132,0.4259
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I avoid getting bored quickly with long-term tasks.,0.0767,0.505,-0.273,0.4752
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I resist the temptation to follow fleeting interests.,0.2591,0.659,-0.07,0.5868
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I maintain consistent engagement with my main project.,0.1089,0.824,0.102,0.5363
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I don't allow external stimuli to disrupt my focus.,0.2047,0.606,0.004,0.4838
+deepseek × RAG,deepseek,RAG,Consistency of Interest,I am able to delay pursuing new ideas to stick with the main one.,0.185,0.754,0.015,0.6105
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I start the tasks I plan.,0.1143,0.315,-0.3,0.3695
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,"After setbacks, I push harder.",0.2607,0.089,-0.621,0.5799
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,Obstacles don't prevent me from finishing.,0.1668,0.144,-0.578,0.4902
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I don't quit when things get tough.,0.1397,0.008,-0.69,0.4012
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,It's hard for me to persist with difficult tasks.,0.1461,0.115,-0.726,0.5532
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,Setbacks sometimes make me stop trying.,0.177,-0.123,-0.785,0.4755
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I can continue working hard even when it's hard.,0.2308,0.241,-0.484,0.5373
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I give up easily on challenging tasks.,0.0754,-0.04,-0.806,0.3871
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,"When tasks are difficult, I tend to quit.",0.143,-0.105,-0.866,0.4648
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I don't mind working hard for a long time.,0.1052,0.299,-0.356,0.3896
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I lose enthusiasm when faced with difficulties.,0.086,-0.03,-0.752,0.3947
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I find it easy to keep going despite failures.,0.2083,0.137,-0.666,0.6076
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,It takes a lot to make me give up on something.,0.0706,0.1,-0.63,0.4307
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I don't let small setbacks derail my efforts.,0.1081,0.208,-0.558,0.5062
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,"I work until a task is done, regardless of the struggle.",0.1594,0.282,-0.475,0.5257
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,Failure doesn't stop me from trying again.,0.1709,-0.014,-0.665,0.4402
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I get discouraged quickly if things don't go smoothly.,0.1138,-0.033,-0.727,0.3645
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,It's easy for me to stop when something is too difficult.,0.0201,0.003,-0.686,0.3225
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I can't seem to finish what I begin.,0.0868,0.171,-0.558,0.4463
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,Difficult tasks exhaust my determination.,0.1443,0.022,-0.745,0.5034
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I often stop when the going gets rough.,0.1102,0.052,-0.628,0.4302
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I persevere through challenges that others might avoid.,0.1734,0.258,-0.544,0.5728
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I lose steam when facing repeated difficulties.,0.1292,-0.094,-0.796,0.4359
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I tend to abandon tasks that prove too challenging.,0.0273,0.087,-0.688,0.4116
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,My work ethic enables me to overcome obstacles.,0.2363,0.211,-0.514,0.5589
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I don't mind the effort when the task requires it.,0.0575,0.176,-0.453,0.3148
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,Setbacks are a common reason I stop trying.,0.1753,-0.134,-0.793,0.4636
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,It's frustrating when I can't complete what I start.,0.115,0.048,-0.678,0.4659
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I'm able to keep working hard for my goals.,0.1167,0.509,-0.246,0.5354
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I sometimes start tasks but never finish them.,0.0774,0.221,-0.444,0.4164
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,It's easy for me to get discouraged and quit.,0.089,-0.157,-0.824,0.3249
+deepseek × RAG,deepseek,RAG,Perseverance of Effort,I'm not easily worn down by persistent challenges.,0.111,0.182,-0.596,0.4749
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I think carefully before committing to a new idea.,0.1176,0.425,0.224,0.4058
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,My interests have a clear direction over time.,0.1959,0.833,-0.096,0.4583
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I value seeing a task through until it's done.,-0.1171,0.216,0.471,0.3641
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Novel ideas that arise aren't usually my first concern.,0.1041,0.384,0.157,0.2928
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I have a consistent vision for my professional life.,0.0687,0.575,0.064,0.3548
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,"When a new passion emerges, I evaluate its fit.",0.147,0.637,0.012,0.3827
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Long-term dedication is more satisfying than constant change.,0.0485,0.546,0.091,0.4857
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I find it challenging to start something new instead of finishing old.,-0.059,0.126,0.618,0.3898
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Shifting interests often leave me feeling dissatisfied.,0.1469,0.543,0.142,0.4055
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I tend to evaluate if a new interest aligns with my core aims.,0.1994,0.781,-0.07,0.4344
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Discipline is required to maintain focus on a single objective.,0.2932,0.393,0.167,0.6582
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Old ideas from years ago still resonate with me.,0.0485,0.489,0.054,0.2899
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,My core interests rarely change once established.,0.2247,0.859,-0.138,0.4896
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I stay engaged with a long-term pursuit even if it's not exciting.,0.0906,0.611,0.166,0.4998
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Frequent switching between interests disrupts my productivity.,0.1755,0.472,0.197,0.4702
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,"My drive is often centered on a single, long-term objective.",0.1892,0.617,0.153,0.5458
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I find it difficult to get distracted by immediate new interests.,0.2288,0.511,0.261,0.5376
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I prefer dedicating my energy to one main endeavor.,0.2392,0.562,0.14,0.5707
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Even small changes in interest can be disruptive.,0.1111,0.334,0.141,0.3373
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I don't let momentary excitement pull me from my focus.,0.2351,0.476,0.213,0.5505
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I tend to hold onto my core interests regardless of circumstances.,0.165,0.762,0.035,0.521
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,My dedication doesn't waver with shifting trends.,0.1222,0.592,0.078,0.422
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I am loyal to the themes I've always been passionate about.,0.1342,0.702,-0.088,0.3575
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Committing to a long-term aim brings me greater fulfillment.,0.0531,0.567,0.16,0.4597
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I feel the need to finish what I began before starting something new.,0.0203,0.281,0.434,0.4223
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,My interests are guided by a consistent principle or value.,0.1321,0.832,-0.137,0.4259
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Loyalty to a cause is a trait I value highly.,0.0716,0.544,-0.017,0.308
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I have a clear sense of direction regarding my interests.,0.1911,0.738,-0.069,0.4131
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I evaluate how a new interest compares to my existing ones.,0.1824,0.678,-0.072,0.3592
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,It's important for me to follow through on my commitments.,-0.0251,0.387,0.298,0.325
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Discipline helps me maintain concentration on a sustained objective.,0.1026,0.462,0.212,0.5393
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,I find myself easily drawn to new possibilities.,0.0307,0.395,0.289,0.3099
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Consistency of Interest,Long-term focus often requires discipline.,0.1161,0.443,0.211,0.5391
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I pressed onward through the frustrating part.,0.1705,-0.057,0.556,0.4008
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I never give up once I've started something.,0.0615,0.134,0.59,0.4366
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Difficulties often motivate me to work even harder.,0.1925,0.065,0.658,0.5169
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Obstacles tend to derail my efforts.,0.0496,0.05,0.698,0.4058
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I can lose momentum if I face too many setbacks.,0.1208,-0.022,0.741,0.4866
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I often complete tasks that others might abandon.,0.1257,0.141,0.628,0.5075
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"When faced with a challenge, I just push through.",0.1599,-0.026,0.715,0.4777
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,My focus gets derailed by unexpected problems.,-0.0704,0.265,0.437,0.3559
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"I usually see things through to the end, even if it's tough.",0.1801,0.1,0.65,0.5167
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Setbacks make me wonder if I can actually achieve my goals.,0.1789,-0.009,0.67,0.4826
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"If a task is important to me, I'll find a way to finish it.",0.0945,0.199,0.548,0.4671
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I have a tendency to quit when things get too hard.,0.1163,-0.032,0.742,0.4203
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I stick with problems until they are solved.,0.0461,0.227,0.431,0.3649
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I sometimes abandon efforts that seem increasingly difficult.,0.0709,0.007,0.744,0.4286
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I persevere on tasks that initially feel overwhelming.,0.1328,0.134,0.7,0.6066
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"When faced with obstacles, I tend to dig deeper.",0.1224,0.077,0.639,0.4764
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I often find myself making excuses when something gets difficult.,0.1557,-0.072,0.709,0.3595
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"I complete what I start, even with setbacks.",0.2497,0.075,0.708,0.6205
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I give up easily when faced with persistent challenges.,0.1052,-0.065,0.831,0.4671
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,My persistence is strong even when progress seems slow.,0.1101,0.283,0.53,0.5511
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I don't like to see things through if they are too difficult.,0.0755,-0.04,0.681,0.3068
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,It takes a lot for me to see a difficult task through to the end.,0.1702,-0.048,0.81,0.526
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I find it easy to pick up a task again after hitting a roadblock.,0.1198,0.082,0.674,0.5387
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I can become discouraged and stop trying if faced with too many setbacks.,0.1516,-0.124,0.813,0.4947
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I don't let difficulties stop me from completing what I've started.,0.2042,-0.082,0.843,0.5521
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I tend to lose interest in tasks that encounter obstacles along the way.,0.0577,0.107,0.725,0.4673
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I have a hard time finishing things when I face repeated difficulties.,0.1821,-0.093,0.889,0.5627
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"Starting something is easy for me, but finishing is tough.",0.1914,-0.022,0.681,0.5232
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,"When obstacles arise, I usually find a way around them.",0.1675,-0.011,0.678,0.4336
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I don't mind spending the extra time needed to finish a task properly.,0.0726,0.159,0.449,0.3544
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I often feel defeated by the smallest setback on a task.,0.1293,-0.123,0.816,0.4885
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Setbacks make it hard for me to stay engaged with a task.,0.1384,0.019,0.724,0.5312
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I am known for completing the things I begin.,0.1364,0.18,0.525,0.441
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Nothing seems to deter me from finishing what I set out to do.,0.0459,0.111,0.675,0.5003
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Finishing tasks is not always my strong point.,0.1756,0.013,0.627,0.4574
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I find it difficult to complete tasks that require consistent effort over time.,0.1006,0.121,0.666,0.5187
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I just keep going even when things don't go as planned.,0.1043,0.19,0.518,0.4571
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,Persistence is one of my key strengths.,0.0477,0.448,0.295,0.4737
+deepseek × Re-Ranked RAG,deepseek,Re-Ranked RAG,Perseverance of Effort,I quickly get discouraged when faced with task-related difficulties.,0.1157,-0.095,0.817,0.446
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I generally stick with one major goal at a time.,0.2137,-0.287,0.407,0.5305
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,"When I start a new project, I often lose interest quickly.",0.0845,-0.865,-0.133,0.4146
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I can easily set aside old passions for newer ones.,0.1665,-0.548,0.122,0.4604
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,My long-term commitments rarely waver.,0.0848,-0.178,0.506,0.3918
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I find it difficult to stay focused on a single pursuit.,0.2639,-0.541,0.269,0.6244
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am content to work on one ambition for an extended period.,0.1975,-0.18,0.554,0.5826
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,New ideas frequently pull my attention away from my current work.,0.1715,-0.785,-0.106,0.444
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am persistent in pursuing my chosen goals.,-0.0379,-0.053,0.794,0.469
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I enjoy the thrill of starting something new more than finishing it.,-0.0423,-0.627,0.03,0.3099
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,"Once I commit to a path, I typically see it through.",-0.0022,-0.216,0.554,0.4366
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I tend to jump between different hobbies and interests.,0.1773,-0.656,-0.031,0.37
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,My dedication to a significant objective is usually unwavering.,0.0965,0.051,0.829,0.5157
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am easily distracted by novel opportunities.,0.1545,-0.647,0.021,0.3666
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I prefer deep involvement in one area over breadth of experience.,0.2321,-0.303,0.286,0.4687
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I often feel the urge to abandon what I'm doing for something else.,0.1448,-0.776,-0.089,0.404
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I can resist the temptation to chase after every new trend.,0.1828,-0.425,0.193,0.4108
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,My focus on a single ambition is strong.,0.3788,-0.035,0.742,0.7237
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I frequently start and stop many different endeavors.,-0.0031,-0.666,0.044,0.3927
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I find satisfaction in prolonged dedication to a task.,-0.0224,-0.227,0.558,0.5062
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am prone to shifting my focus to emergent interests.,0.2246,-0.612,0.101,0.499
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am capable of maintaining concentration on one primary objective.,0.2179,-0.03,0.721,0.6126
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I have a habit of moving on to new obsessions before completing old ones.,0.2241,-0.678,0.004,0.4812
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am steadfast in my pursuit of a singular aspiration.,0.2305,0.145,0.87,0.5673
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,The allure of novel pursuits often distracts me.,0.2096,-0.694,-0.021,0.4514
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am patient enough to see a long-term goal to fruition.,-0.0352,-0.061,0.655,0.4031
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I often find myself abandoning projects mid-way.,-0.0348,-0.825,-0.089,0.3844
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,My commitment to a single ambition is generally stable.,0.2415,-0.006,0.751,0.6058
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am easily swayed by the appeal of new challenges.,0.0384,-0.574,0.147,0.3389
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am resolute in my dedication to a chosen aspiration.,0.1116,0.14,0.902,0.5101
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I find it challenging to resist exploring new interests.,0.1611,-0.726,0.035,0.4941
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I possess the ability to maintain focus on a singular objective.,0.2848,0.02,0.743,0.6748
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am prone to developing and abandoning passions in quick succession.,0.1466,-0.703,0.031,0.4326
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,My engagement with a specific ambition is usually consistent.,0.1372,-0.119,0.604,0.5328
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I frequently find myself contemplating different ambitions simultaneously.,0.1747,-0.539,0.163,0.4759
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am deliberate in my choice of focus and stick with it.,0.2086,-0.08,0.671,0.5593
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I often feel compelled to explore alternative paths.,0.0746,-0.604,0.052,0.3321
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I can resist the impulse to deviate from my current course.,0.1488,-0.284,0.448,0.5033
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am committed to seeing my primary ambition through to completion.,0.0465,0.107,0.869,0.4699
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,New ideas consistently divert my attention from my current endeavors.,0.2007,-0.686,0.044,0.5151
+gemini × No-RAG,gemini,No-RAG,Consistency of Interest,I am comfortable investing considerable time in one primary goal.,0.1626,-0.133,0.634,0.5448
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I keep working on tasks even when they become difficult.,0.1743,-0.511,0.283,0.5924
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,"When faced with challenges, I tend to give up easily.",0.095,-0.696,0.034,0.4205
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am persistent in pursuing my goals.,0.0488,-0.048,0.787,0.4958
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I easily lose motivation when I encounter obstacles.,0.0913,-0.659,0.061,0.4158
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,"I see projects through to completion, regardless of setbacks.",0.2014,-0.24,0.507,0.6183
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,Minor difficulties often discourage me from finishing what I start.,0.1704,-0.765,-0.032,0.5199
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I can maintain focus and effort on long-term projects.,-0.0636,-0.225,0.569,0.5254
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I struggle to stick with tasks that require sustained effort.,0.0292,-0.541,0.274,0.5229
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am determined to overcome obstacles in my path.,0.087,-0.094,0.613,0.4408
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I find it hard to continue working when things get tough.,0.2017,-0.555,0.106,0.5
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am quick to abandon a task if it proves too demanding.,-0.0342,-0.699,0.056,0.3359
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,"I am committed to achieving my objectives, even if it takes time.",0.0323,-0.038,0.751,0.4469
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I get discouraged and stop working when I hit a wall.,0.1268,-0.608,0.025,0.4306
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I can power through periods of intense effort.,0.1388,-0.233,0.465,0.4955
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I tend to procrastinate on challenging assignments.,0.0646,-0.651,0.043,0.3559
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am resolute in my efforts to succeed.,0.0319,0.127,0.878,0.4292
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I find it easier to start new things than to finish existing ones.,0.0136,-0.732,-0.042,0.3828
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am willing to put in extra work to complete a task.,0.1849,-0.184,0.477,0.4255
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,"When faced with a problem, I often seek the easiest way out instead of persisting.",0.0447,-0.584,0.056,0.3802
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am known for my resilience in the face of adversity.,0.1849,-0.165,0.444,0.4254
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I often feel like giving up when things don't go as planned.,0.0948,-0.653,-0.026,0.3516
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am driven to finish what I start.,0.1004,-0.276,0.523,0.4805
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I lose interest in a project once it becomes complicated.,-0.0864,-0.695,-0.047,0.2797
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am able to sustain my energy and focus on demanding tasks.,0.0018,-0.127,0.568,0.481
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I find it difficult to summon the energy to keep going when I'm tired.,0.0768,-0.529,0.067,0.3592
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am steadfast in my commitment to my responsibilities.,-0.0518,0.132,0.843,0.3548
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I often leave tasks unfinished if they become too time-consuming.,0.007,-0.755,-0.034,0.3774
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am dedicated to seeing things through to the end.,0.0545,0.02,0.75,0.473
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I struggle to maintain effort when the rewards are not immediate.,0.0741,-0.487,0.222,0.4927
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am tenacious in my pursuit of goals.,0.0077,-0.082,0.709,0.4389
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I tend to abandon tasks that require significant long-term commitment.,-0.0318,-0.684,0.105,0.3754
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am able to endure hardship in pursuit of my aims.,0.1227,-0.03,0.714,0.5297
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I find it frustrating to continue working on something that isn't progressing quickly.,0.0405,-0.644,0.047,0.436
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,"I am reliable in my efforts, even when they are strenuous.",0.1566,-0.141,0.598,0.4426
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I am prone to giving up when faced with repeated failures.,0.1045,-0.593,0.166,0.4502
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I have a strong will to complete what I have begun.,0.1087,-0.183,0.612,0.4951
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I find it hard to push myself when I encounter unexpected problems.,0.2066,-0.638,0.019,0.4542
+gemini × No-RAG,gemini,No-RAG,Perseverance of Effort,I can keep working diligently even when exhausted.,0.1332,-0.244,0.423,0.4958
+gemini × RAG,gemini,RAG,Consistency of Interest,I usually finish what I start.,-0.1199,0.498,-0.242,0.3239
+gemini × RAG,gemini,RAG,Consistency of Interest,I tend to jump from one hobby to another.,0.1741,0.623,0.0,0.3773
+gemini × RAG,gemini,RAG,Consistency of Interest,"Once I decide on a goal, I see it through.",-0.0053,0.174,-0.586,0.4226
+gemini × RAG,gemini,RAG,Consistency of Interest,I often get bored with projects before they're done.,0.0075,0.828,0.12,0.3545
+gemini × RAG,gemini,RAG,Consistency of Interest,New ideas easily pull me away from my current commitments.,0.1655,0.637,-0.059,0.4371
+gemini × RAG,gemini,RAG,Consistency of Interest,I am diligent in pursuing my ambitions.,0.0686,0.04,-0.788,0.4691
+gemini × RAG,gemini,RAG,Consistency of Interest,It’s hard for me to resist exploring new possibilities.,0.0411,0.504,-0.139,0.3501
+gemini × RAG,gemini,RAG,Consistency of Interest,I rarely abandon tasks I've committed to.,0.0158,0.528,-0.237,0.4344
+gemini × RAG,gemini,RAG,Consistency of Interest,I find myself easily drawn to novel pursuits.,0.1027,0.567,-0.094,0.3541
+gemini × RAG,gemini,RAG,Consistency of Interest,My focus remains on my chosen objectives.,0.2201,0.071,-0.712,0.5887
+gemini × RAG,gemini,RAG,Consistency of Interest,I frequently change my mind about what I want to achieve.,0.1001,0.571,-0.16,0.383
+gemini × RAG,gemini,RAG,Consistency of Interest,I am determined to see my long-term goals realized.,-0.0206,-0.1,-0.856,0.3745
+gemini × RAG,gemini,RAG,Consistency of Interest,I get easily distracted by emerging interests.,0.2039,0.759,0.062,0.4656
+gemini × RAG,gemini,RAG,Consistency of Interest,I maintain a steady course toward my aspirations.,0.0414,0.026,-0.769,0.514
+gemini × RAG,gemini,RAG,Consistency of Interest,I often start new projects without finishing old ones.,0.0216,0.717,0.038,0.3675
+gemini × RAG,gemini,RAG,Consistency of Interest,My dedication to a single aim is strong.,0.2453,-0.035,-0.77,0.5932
+gemini × RAG,gemini,RAG,Consistency of Interest,I have a habit of starting things and not finishing them.,-0.063,0.649,-0.055,0.3183
+gemini × RAG,gemini,RAG,Consistency of Interest,I stick with my plans until they are completed.,-0.0372,0.236,-0.494,0.3415
+gemini × RAG,gemini,RAG,Consistency of Interest,I find it challenging to maintain long-term focus.,0.1472,0.53,-0.257,0.5832
+gemini × RAG,gemini,RAG,Consistency of Interest,I am committed to the projects I undertake.,0.0064,0.128,-0.688,0.4208
+gemini × RAG,gemini,RAG,Consistency of Interest,I am prone to pursuing fleeting enthusiasms.,0.1661,0.539,-0.18,0.4405
+gemini × RAG,gemini,RAG,Consistency of Interest,My persistence on a singular path is unwavering.,0.1048,0.026,-0.69,0.505
+gemini × RAG,gemini,RAG,Consistency of Interest,I often get bored with my endeavors.,0.0513,0.759,0.008,0.3675
+gemini × RAG,gemini,RAG,Consistency of Interest,I concentrate on a few important goals.,0.242,0.227,-0.494,0.6011
+gemini × RAG,gemini,RAG,Consistency of Interest,I have a tendency to switch my interests frequently.,0.2071,0.684,0.024,0.4016
+gemini × RAG,gemini,RAG,Consistency of Interest,I am dedicated to achieving my primary objectives.,0.1001,-0.1,-0.847,0.445
+gemini × RAG,gemini,RAG,Consistency of Interest,I find it difficult to stay with one thing for long.,0.1399,0.669,-0.067,0.4718
+gemini × RAG,gemini,RAG,Consistency of Interest,My efforts are consistently directed towards my main ambitions.,0.1292,0.047,-0.741,0.5137
+gemini × RAG,gemini,RAG,Consistency of Interest,I lose interest in my projects when they become challenging.,0.0458,0.803,0.043,0.4186
+gemini × RAG,gemini,RAG,Consistency of Interest,I can dedicate myself to a single pursuit for extended periods.,0.2172,0.283,-0.434,0.5967
+gemini × RAG,gemini,RAG,Consistency of Interest,I am easily tempted by new ventures.,0.0709,0.569,-0.087,0.3019
+gemini × RAG,gemini,RAG,Consistency of Interest,My focus is steady on my most important aspirations.,0.2205,0.038,-0.722,0.6085
+gemini × RAG,gemini,RAG,Consistency of Interest,I often feel compelled to seek out new experiences.,0.1005,0.475,-0.125,0.2997
+gemini × RAG,gemini,RAG,Consistency of Interest,I see my chosen ambitions through to completion.,-0.0171,0.062,-0.732,0.452
+gemini × RAG,gemini,RAG,Consistency of Interest,I have a short attention span for long-term goals.,0.1523,0.501,-0.25,0.4519
+gemini × RAG,gemini,RAG,Consistency of Interest,I am resolute in my pursuit of established aims.,0.0891,-0.098,-0.888,0.5109
+gemini × RAG,gemini,RAG,Consistency of Interest,I frequently get sidetracked by other opportunities.,0.116,0.684,-0.008,0.4054
+gemini × RAG,gemini,RAG,Consistency of Interest,I am unwavering in my commitment to my core objectives.,0.1246,-0.11,-0.887,0.4812
+gemini × RAG,gemini,RAG,Consistency of Interest,My concentration wavers when faced with repetitive tasks.,0.0972,0.668,-0.059,0.4906
+gemini × RAG,gemini,RAG,Perseverance of Effort,I tend to abandon tasks that become too demanding.,-0.0196,0.859,0.093,0.3859
+gemini × RAG,gemini,RAG,Perseverance of Effort,I see a difficult task through to completion.,0.203,0.294,-0.435,0.5388
+gemini × RAG,gemini,RAG,Perseverance of Effort,"When faced with a roadblock, I give up on my goals.",0.0523,0.481,-0.23,0.3992
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am committed to finishing what I start.,0.0988,0.19,-0.635,0.4964
+gemini × RAG,gemini,RAG,Perseverance of Effort,I readily shift focus when a task presents too many problems.,-0.1554,0.635,-0.08,0.3554
+gemini × RAG,gemini,RAG,Perseverance of Effort,I persist in my efforts until a task is completed.,0.0839,0.22,-0.596,0.5351
+gemini × RAG,gemini,RAG,Perseverance of Effort,I find it easy to let go of unfinished projects.,-0.0154,0.763,0.01,0.4087
+gemini × RAG,gemini,RAG,Perseverance of Effort,"I am determined to achieve my objectives, even with delays.",0.0921,0.03,-0.767,0.4812
+gemini × RAG,gemini,RAG,Perseverance of Effort,I easily become discouraged when my work hits a snag.,0.1522,0.719,-0.031,0.4833
+gemini × RAG,gemini,RAG,Perseverance of Effort,I find the motivation to continue working through adversity.,0.2422,0.225,-0.462,0.5917
+gemini × RAG,gemini,RAG,Perseverance of Effort,I often leave tasks incomplete if they prove too challenging.,0.0692,0.812,0.026,0.4337
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am resilient in the face of obstacles.,0.2017,0.203,-0.483,0.5052
+gemini × RAG,gemini,RAG,Perseverance of Effort,I tend to stop working when faced with significant difficulty.,0.1363,0.65,-0.086,0.523
+gemini × RAG,gemini,RAG,Perseverance of Effort,I rarely feel the need to finish something I've started if it's hard.,0.1242,0.681,-0.012,0.4408
+gemini × RAG,gemini,RAG,Perseverance of Effort,I don't let setbacks prevent me from achieving my goals.,0.1701,0.198,-0.486,0.5043
+gemini × RAG,gemini,RAG,Perseverance of Effort,I have a habit of dropping tasks when they become frustrating.,0.0281,0.82,0.1,0.4202
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am dedicated to seeing my endeavors through to the end.,0.0671,-0.031,-0.835,0.4899
+gemini × RAG,gemini,RAG,Perseverance of Effort,I quickly lose interest when a task requires sustained effort.,-0.0341,0.787,0.028,0.4119
+gemini × RAG,gemini,RAG,Perseverance of Effort,I maintain focus and effort on long-term projects.,-0.1149,0.3,-0.534,0.5223
+gemini × RAG,gemini,RAG,Perseverance of Effort,"I easily get sidetracked by new, less demanding activities.",-0.1579,0.828,0.122,0.2662
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am known for my ability to overcome difficulties.,0.2053,0.242,-0.409,0.4565
+gemini × RAG,gemini,RAG,Perseverance of Effort,I tend to give up on things that are not immediately rewarding.,0.0331,0.739,-0.015,0.3993
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am persistent in pursuing my ambitions.,0.0007,0.032,-0.806,0.4651
+gemini × RAG,gemini,RAG,Perseverance of Effort,I find it difficult to stay committed when things get complicated.,0.0158,0.615,-0.118,0.3902
+gemini × RAG,gemini,RAG,Perseverance of Effort,I easily get discouraged by failures.,0.1163,0.632,-0.084,0.4182
+gemini × RAG,gemini,RAG,Perseverance of Effort,I tend to procrastinate on difficult tasks.,0.1091,0.732,-0.004,0.3975
+gemini × RAG,gemini,RAG,Perseverance of Effort,I continue to work towards my objectives despite setbacks.,0.1686,0.087,-0.694,0.5589
+gemini × RAG,gemini,RAG,Perseverance of Effort,I rarely feel the need to see a difficult task through.,0.0616,0.714,-0.042,0.423
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am unwavering in my pursuit of goals.,-0.0689,-0.062,-0.88,0.4018
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am quick to abandon goals that require significant effort.,-0.0448,0.648,-0.109,0.3224
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am tenacious in my work ethic.,0.0689,0.17,-0.555,0.4304
+gemini × RAG,gemini,RAG,Perseverance of Effort,I let minor difficulties derail my progress.,0.1155,0.584,-0.144,0.4697
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am committed to finishing what I begin.,0.0973,0.165,-0.661,0.497
+gemini × RAG,gemini,RAG,Perseverance of Effort,I find it easy to move on from unfinished work.,0.0612,0.702,-0.038,0.438
+gemini × RAG,gemini,RAG,Perseverance of Effort,I am steadfast in my efforts to achieve success.,0.0284,-0.164,-0.957,0.4532
+gemini × RAG,gemini,RAG,Perseverance of Effort,I often give up when my work becomes overwhelming.,0.0518,0.795,0.049,0.396
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I get easily bored with my current projects.,0.1275,0.7,0.045,0.3726
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,"Once I commit to something, I see it through.",0.0033,0.154,0.619,0.4332
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,New ideas often pull me away from my current goals.,0.1279,0.674,0.075,0.4364
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I find it hard to resist exploring new interests.,0.123,0.712,0.079,0.4492
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My long-term goals remain my priority.,0.067,0.253,0.443,0.4176
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I often jump to new hobbies or obsessions.,0.1991,0.811,-0.08,0.4288
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I'm always looking for the next exciting thing to do.,0.0182,0.486,0.094,0.2101
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I can resist the allure of novelty when focused.,0.2693,0.516,0.181,0.5559
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My interests are fleeting.,0.1806,0.716,-0.059,0.3616
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am steadfast in pursuing my ambitions.,0.0916,0.183,0.651,0.5074
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I easily get distracted by unrelated opportunities.,0.1751,0.703,0.019,0.4023
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I rarely stick with one major goal for very long.,0.1456,0.484,0.237,0.4644
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am committed to seeing my projects to completion.,-0.0392,0.118,0.632,0.3952
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,The thought of new projects is always tempting.,0.0938,0.592,-0.028,0.358
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My focus on my primary ambition is unwavering.,0.2544,0.282,0.497,0.6139
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am prone to abandoning projects prematurely.,0.0056,0.509,0.251,0.3827
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I find satisfaction in prolonged engagement with a single pursuit.,0.1665,0.51,0.245,0.5762
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My attention shifts rapidly between interests.,0.2969,0.855,-0.112,0.5072
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I can suppress the urge to chase every new idea.,0.2165,0.519,0.155,0.5074
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am easily captivated by novel pursuits.,0.1353,0.657,0.07,0.365
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My dedication to a single objective is enduring.,0.1554,0.154,0.62,0.6289
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I have difficulty maintaining focus on one thing.,0.2381,0.557,0.191,0.583
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I consistently invest my energy in my chosen path.,0.0359,0.263,0.467,0.4359
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I find it challenging to resist the pull of new interests.,0.1823,0.712,0.077,0.5055
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am resolved to achieve my long-term ambitions.,0.0282,0.11,0.632,0.4407
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I frequently find myself starting over with new ventures.,-0.0188,0.552,0.157,0.3607
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My focus is stable and persistent on my primary goals.,0.1919,0.272,0.504,0.6169
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am often drawn to the novelty of different pursuits.,0.1108,0.781,-0.032,0.3303
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I have a strong capacity to stay the course.,-0.0523,0.103,0.679,0.4369
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I have a tendency to flit from one interest to another.,0.2311,0.886,-0.141,0.4259
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,My current ambitions hold my sustained attention.,0.1763,0.532,0.298,0.6042
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am easily swayed by exciting new possibilities.,0.0757,0.623,0.074,0.2892
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I am reliable in my commitment to a singular ambition.,0.2118,0.241,0.528,0.5517
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Consistency of Interest,I often abandon my current projects for something else.,0.1071,0.675,0.067,0.3975
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I keep going even when things get tough.,0.18,-0.004,0.718,0.5046
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I don't give up easily when faced with challenges.,0.1234,-0.054,0.76,0.4328
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"I see tasks through to completion, no matter the difficulties.",0.2246,-0.028,0.714,0.5776
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"When I encounter a problem, I'm determined to find a solution.",0.0932,0.004,0.681,0.3901
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I persist in my efforts even after experiencing setbacks.,0.1676,-0.011,0.825,0.5816
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I can maintain focus on my goals despite obstacles.,-0.0077,0.069,0.73,0.5544
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,Difficulties rarely deter me from achieving what I set out to do.,0.1513,-0.022,0.788,0.5339
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am resilient in the face of adversity.,0.1998,-0.132,0.781,0.4658
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am driven to finish what I start.,0.1004,0.204,0.606,0.4805
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I don't let temporary failures stop me.,0.171,-0.023,0.696,0.4871
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I have the determination to see projects through.,0.1011,0.055,0.74,0.5201
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"Even when progress is slow, I continue to work.",0.1326,0.045,0.651,0.4806
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I bounce back from setbacks and keep pushing forward.,0.2159,-0.015,0.693,0.5587
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am committed to overcoming hurdles.,0.1409,-0.075,0.845,0.5018
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I don't shy away from hard work when faced with opposition.,0.1621,-0.127,0.764,0.4688
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"When I hit a roadblock, I redouble my efforts.",0.0814,0.022,0.697,0.4705
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am persistent in pursuing my objectives.,0.0168,0.117,0.716,0.4665
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I find ways to move forward when things get stuck.,0.1454,0.149,0.519,0.4825
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I remain dedicated to my tasks even when they become arduous.,0.0535,0.076,0.702,0.4894
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am not easily discouraged by difficulties.,0.1509,-0.049,0.742,0.4432
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I possess the grit to finish what I begin.,0.1848,0.074,0.682,0.5421
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I can persevere through demanding situations.,0.1973,-0.104,0.824,0.5468
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I don't let setbacks derail my progress.,0.1658,-0.114,0.81,0.5337
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am unwavering in my pursuit of completion.,-0.0108,0.185,0.634,0.4284
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"When challenges arise, I am motivated to overcome them.",0.1698,-0.01,0.75,0.4925
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I have a strong will to see things through.,0.0896,0.004,0.776,0.4685
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I can sustain effort through prolonged difficulties.,0.2433,-0.034,0.718,0.6459
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I don't abandon tasks when they become complicated.,0.031,0.199,0.474,0.406
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am resolute in my approach to achieving goals.,-0.0416,0.032,0.744,0.4224
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am able to push through when things feel overwhelming.,0.1381,-0.018,0.699,0.4739
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I refuse to be defeated by obstacles.,0.1122,-0.205,0.839,0.4156
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am driven to complete my commitments.,0.0317,0.149,0.639,0.4013
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"Even when faced with significant challenges, I continue working.",0.2035,-0.127,0.832,0.5545
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I can endure hardship to reach my objectives.,0.1552,-0.094,0.806,0.5303
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I don't let minor issues stop my progress.,0.0499,0.021,0.651,0.4368
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am committed to seeing my plans through to the end.,0.0616,0.019,0.731,0.4497
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,"When things get tough, I dig deeper.",0.1526,-0.023,0.669,0.4588
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am tenacious in my efforts.,0.0216,0.163,0.604,0.3936
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I can maintain focus on my goals despite interruptions.,-0.0596,0.206,0.574,0.5189
+gemini × Re-Ranked RAG,gemini,Re-Ranked RAG,Perseverance of Effort,I am known for my persistence.,0.0525,0.138,0.57,0.3703
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I often switch my focus to new interests.,0.2559,0.836,-0.017,0.5202
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I stay committed to my long-term goals.,0.0284,0.21,0.526,0.471
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I frequently find myself distracted by new ideas.,0.1882,0.712,0.012,0.4198
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I prefer to delve deeply into one subject at a time.,0.2565,0.757,-0.084,0.4501
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I easily lose interest in ongoing projects.,0.0777,0.536,0.271,0.4425
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I enjoy pursuing a single passion for an extended period.,0.2463,0.758,-0.01,0.5967
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I jump from one hobby to another without finishing them.,0.1085,0.68,0.022,0.3838
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I am quick to change direction when a new idea excites me.,0.1457,0.531,0.128,0.3318
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I find it fulfilling to master one area of interest.,0.1399,0.651,0.077,0.4823
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I feel satisfied sticking to my chosen pursuits.,0.1161,0.514,0.23,0.5126
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I get bored if I focus on the same thing too long.,0.2467,0.579,0.133,0.4732
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I set a goal and work toward it consistently.,-0.0261,0.097,0.542,0.4142
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I often feel the urge to explore something different.,0.1816,0.728,-0.04,0.328
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I take pride in seeing my ideas through to completion.,-0.1234,0.155,0.542,0.3408
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I prefer to explore different interests rather than sticking to one.,0.2457,0.928,-0.22,0.4041
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I find it easy to dedicate myself to a single project.,0.213,0.585,0.211,0.595
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I am often tempted by new and shiny opportunities.,0.095,0.491,0.208,0.3138
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I gain a sense of accomplishment from persistent effort on one goal.,-0.0418,0.204,0.554,0.5152
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I have difficulty resisting the allure of new projects.,0.1719,0.548,0.238,0.507
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I believe in the value of deep engagement with one passion.,0.1811,0.555,0.047,0.4568
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I frequently stray from my original plans.,0.0272,0.436,0.251,0.2932
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I enjoy the journey of fully developing one skill.,-0.0063,0.495,0.181,0.3663
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I feel restless if I am not exploring varied interests.,0.1878,0.723,-0.056,0.3897
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I am often uncertain about my main focus.,0.1868,0.592,0.136,0.4597
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I appreciate the importance of sticking with one area of interest.,0.2805,0.704,-0.024,0.5941
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I often feel overwhelmed by too many options.,0.1268,0.485,0.175,0.3065
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I am motivated to finish what I start.,-0.1255,0.142,0.572,0.3498
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I find it enriching to explore diverse projects simultaneously.,0.1018,0.745,-0.107,0.3715
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I prefer not to shift gears once I’ve committed to something.,0.1654,0.391,0.274,0.4443
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,"My interests often conflict, making it hard to choose one.",0.1269,0.655,0.024,0.3567
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I easily get sidetracked by new passions.,0.1976,0.745,0.015,0.4419
+gpt × No-RAG,gpt,No-RAG,Consistency of Interest,I value the patience required for long-term commitment.,0.0246,0.287,0.309,0.3683
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I keep going even when things get tough.,0.18,-0.044,0.751,0.5046
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I often give up when I encounter obstacles.,0.109,0.031,0.76,0.4154
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I push through challenges until I achieve my goals.,0.156,-0.083,0.833,0.5166
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I lose interest in a task if it becomes too difficult.,0.0235,0.252,0.492,0.369
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,"I finish what I start, no matter how hard it gets.",0.2094,-0.003,0.724,0.5826
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I find it easy to quit when faced with setbacks.,0.1994,-0.108,0.788,0.5143
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,"I stay committed to my tasks, even when frustrated.",0.0498,0.086,0.7,0.5211
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I abandon difficult projects before completing them.,0.0595,0.228,0.509,0.435
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I seek solutions rather than getting discouraged.,0.0544,0.07,0.582,0.3539
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I struggle to maintain effort when faced with failures.,0.1288,-0.056,0.798,0.5465
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I remain focused on my objectives despite distractions.,-0.1922,0.276,0.444,0.4164
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I believe persistence is key to success.,0.0595,0.042,0.527,0.4735
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I frequently become overwhelmed and give up.,0.0285,0.171,0.609,0.3638
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I feel rewarded when I overcome difficulties.,0.255,-0.049,0.754,0.526
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I avoid tasks that seem too hard.,0.0486,0.117,0.566,0.3886
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I thrive when faced with challenging situations.,0.1424,-0.014,0.713,0.4172
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I often lose motivation during tough times.,0.1298,0.052,0.652,0.4033
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I rally my efforts when facing failure.,0.1192,-0.117,0.812,0.4814
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I find myself justifying why I should quit.,-0.0018,0.178,0.382,0.2319
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I believe in my ability to see things through to the end.,0.1378,-0.003,0.612,0.4615
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I often leave tasks unfinished due to obstacles.,0.0856,0.235,0.509,0.4458
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I transform setbacks into opportunities for growth.,0.1785,-0.041,0.662,0.4584
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I get easily discouraged when outcomes are poor.,0.0939,0.05,0.653,0.3916
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,"I stay determined to finish tasks, no matter the struggle.",0.1483,-0.034,0.789,0.5777
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I cower at the first sign of difficulty.,0.0712,-0.134,0.654,0.2757
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,"I keep my eye on the prize, even when it's hard.",0.0113,0.025,0.68,0.4868
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I find myself avoiding challenges that look difficult.,0.0389,0.126,0.626,0.3749
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I push myself beyond my limits to get the job done.,0.111,0.044,0.619,0.4304
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I think of quitting when faced with setbacks.,0.1439,-0.089,0.746,0.4803
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I embrace the struggle as part of the journey.,0.1021,0.006,0.579,0.3553
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I take pride in overcoming hurdles to finish.,0.2214,-0.057,0.786,0.5788
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I easily lose sight of my goals during tough times.,0.0295,0.044,0.681,0.4126
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I analyze mistakes and keep moving forward.,0.0755,0.071,0.512,0.3778
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I quickly lose hope when facing obstacles.,0.0964,-0.089,0.775,0.3848
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I make a plan to tackle challenges head-on.,0.0633,0.038,0.669,0.4335
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I often feel defeated when projects become tough.,0.1507,0.078,0.689,0.4916
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I consistently strive to fulfill my commitments.,0.0457,0.086,0.582,0.4125
+gpt × No-RAG,gpt,No-RAG,Perseverance of Effort,I shy away from hard work if it's too frustrating.,0.1002,0.09,0.566,0.3774
+gpt × RAG,gpt,RAG,Consistency of Interest,I often switch between different interests too frequently.,0.2232,0.906,-0.205,0.4145
+gpt × RAG,gpt,RAG,Consistency of Interest,I struggle to ignore new ideas while working.,0.1338,0.519,0.158,0.4622
+gpt × RAG,gpt,RAG,Consistency of Interest,"Once I choose a direction, I rarely change it.",0.1767,0.447,0.219,0.419
+gpt × RAG,gpt,RAG,Consistency of Interest,I frequently abandon plans for new pursuits.,0.0864,0.667,0.105,0.3984
+gpt × RAG,gpt,RAG,Consistency of Interest,I enjoy continuously developing my primary interest.,0.0905,0.554,0.157,0.4396
+gpt × RAG,gpt,RAG,Consistency of Interest,It's challenging for me to focus on a single ambition.,0.3106,0.579,0.212,0.6598
+gpt × RAG,gpt,RAG,Consistency of Interest,I tend to see projects through to the end.,-0.067,0.255,0.503,0.4296
+gpt × RAG,gpt,RAG,Consistency of Interest,I frequently lose interest in my current goals.,0.1199,0.728,0.082,0.4254
+gpt × RAG,gpt,RAG,Consistency of Interest,My enthusiasm for a single venture lasts a long time.,0.1022,0.46,0.214,0.4701
+gpt × RAG,gpt,RAG,Consistency of Interest,I have difficulty resisting the temptation to start new things.,0.0907,0.606,0.144,0.4454
+gpt × RAG,gpt,RAG,Consistency of Interest,I frequently get sidetracked by new opportunities.,0.1022,0.796,-0.042,0.3962
+gpt × RAG,gpt,RAG,Consistency of Interest,I often feel drawn away from my current endeavors.,0.1367,0.767,0.021,0.4176
+gpt × RAG,gpt,RAG,Consistency of Interest,I prioritize deepening my expertise in one area.,0.1866,0.468,0.159,0.4613
+gpt × RAG,gpt,RAG,Consistency of Interest,I'm easily tempted to start fresh ideas before finishing.,0.0428,0.601,0.093,0.4041
+gpt × RAG,gpt,RAG,Consistency of Interest,I commit fully to my current objectives.,0.1019,0.258,0.463,0.4673
+gpt × RAG,gpt,RAG,Consistency of Interest,I often feel restless with prolonged tasks.,-0.0012,0.509,0.189,0.394
+gpt × RAG,gpt,RAG,Consistency of Interest,I derive satisfaction from pursuing one interest deeply.,0.135,0.518,0.149,0.4586
+gpt × RAG,gpt,RAG,Consistency of Interest,I find it hard to resist changing my focus.,0.2263,0.63,0.199,0.5759
+gpt × RAG,gpt,RAG,Consistency of Interest,I am intentional about developing a singular ambition.,0.2796,0.368,0.269,0.5801
+gpt × RAG,gpt,RAG,Consistency of Interest,I frequently chase after new interests.,0.1243,0.839,-0.061,0.4069
+gpt × RAG,gpt,RAG,Consistency of Interest,I often feel the urge to shift to new projects.,0.1913,0.824,-0.107,0.4553
+gpt × RAG,gpt,RAG,Consistency of Interest,I stick with my plans until they've reached completion.,-0.0388,0.182,0.523,0.3716
+gpt × RAG,gpt,RAG,Consistency of Interest,I am easily swayed by the allure of new ideas.,0.1661,0.634,-0.052,0.3048
+gpt × RAG,gpt,RAG,Consistency of Interest,I am capable of seeing my ambitions through.,-0.0547,0.123,0.546,0.3706
+gpt × RAG,gpt,RAG,Consistency of Interest,I often feel like I can’t settle on one pursuit.,0.1882,0.757,0.006,0.4939
+gpt × RAG,gpt,RAG,Consistency of Interest,I commonly feel the pull towards different passions.,0.1644,0.789,-0.127,0.391
+gpt × RAG,gpt,RAG,Consistency of Interest,I invest time in mastering my select interests.,0.091,0.484,0.196,0.4432
+gpt × RAG,gpt,RAG,Consistency of Interest,I often lose focus when new projects arise.,0.2075,0.784,0.042,0.5601
+gpt × RAG,gpt,RAG,Consistency of Interest,I take pride in my ability to stay committed.,-0.002,0.104,0.622,0.4372
+gpt × RAG,gpt,RAG,Perseverance of Effort,I keep pushing through even when I face challenges.,0.2032,-0.078,0.848,0.5476
+gpt × RAG,gpt,RAG,Perseverance of Effort,I often give up when I encounter obstacles.,0.109,0.22,0.572,0.4154
+gpt × RAG,gpt,RAG,Perseverance of Effort,I maintain my effort even when tasks become difficult.,0.132,-0.008,0.859,0.601
+gpt × RAG,gpt,RAG,Perseverance of Effort,It's easy for me to walk away from tough projects.,0.0496,0.291,0.413,0.392
+gpt × RAG,gpt,RAG,Perseverance of Effort,I stay the course when I encounter setbacks.,0.1664,-0.022,0.816,0.597
+gpt × RAG,gpt,RAG,Perseverance of Effort,I tend to quit when things get overwhelming.,0.0022,0.293,0.438,0.3566
+gpt × RAG,gpt,RAG,Perseverance of Effort,"I finish what I start, no matter the difficulties.",0.2167,-0.054,0.803,0.5783
+gpt × RAG,gpt,RAG,Perseverance of Effort,I allow myself to get discouraged by problems.,0.0917,0.14,0.568,0.3776
+gpt × RAG,gpt,RAG,Perseverance of Effort,"I consistently put in effort, regardless of the outcome.",0.1281,-0.095,0.799,0.4887
+gpt × RAG,gpt,RAG,Perseverance of Effort,I struggle to keep going when faced with hardship.,0.2094,0.004,0.733,0.542
+gpt × RAG,gpt,RAG,Perseverance of Effort,I am determined to overcome hurdles in my work.,0.128,-0.037,0.758,0.4933
+gpt × RAG,gpt,RAG,Perseverance of Effort,I persevere through tough situations until I succeed.,0.2502,-0.177,0.91,0.5896
+gpt × RAG,gpt,RAG,Perseverance of Effort,I reconcile my efforts even when progress is slow.,0.1329,0.039,0.712,0.4926
+gpt × RAG,gpt,RAG,Perseverance of Effort,I sometimes stop trying when faced with setbacks.,0.1465,0.124,0.647,0.5061
+gpt × RAG,gpt,RAG,Perseverance of Effort,"I work diligently, no matter how hard the situation gets.",0.1757,-0.176,0.869,0.4917
+gpt × RAG,gpt,RAG,Perseverance of Effort,I keep my focus and effort until the task is complete.,-0.0751,0.162,0.629,0.5049
+gpt × RAG,gpt,RAG,Perseverance of Effort,I find it hard to continue when things don't go as planned.,0.1731,0.178,0.56,0.4701
+gpt × RAG,gpt,RAG,Perseverance of Effort,I push myself to finish even the most challenging tasks.,0.1594,0.018,0.762,0.5282
+gpt × RAG,gpt,RAG,Perseverance of Effort,I often let difficulties discourage me from finishing.,0.172,0.285,0.502,0.4894
+gpt × RAG,gpt,RAG,Perseverance of Effort,I prioritize finishing tasks despite encountering difficulties.,0.1908,0.07,0.756,0.6468
+gpt × RAG,gpt,RAG,Perseverance of Effort,I adapt my strategies to stay committed to my goals.,-0.0174,0.222,0.549,0.4314
+gpt × RAG,gpt,RAG,Perseverance of Effort,I let setbacks dictate my level of effort.,0.1234,0.102,0.605,0.4584
+gpt × RAG,gpt,RAG,Perseverance of Effort,I strive to maintain high levels of effort when facing issues.,0.0444,0.004,0.774,0.5089
+gpt × RAG,gpt,RAG,Perseverance of Effort,I remain persistent even when results are disappointing.,0.1285,-0.003,0.756,0.5246
+gpt × RAG,gpt,RAG,Perseverance of Effort,I commit to finishing all my responsibilities.,0.0593,0.033,0.607,0.4278
+gpt × RAG,gpt,RAG,Perseverance of Effort,I often feel like giving up when the going gets tough.,0.1255,0.229,0.474,0.3817
+gpt × RAG,gpt,RAG,Perseverance of Effort,I seek solutions rather than surrendering when issues arise.,0.0233,0.074,0.545,0.3493
+gpt × RAG,gpt,RAG,Perseverance of Effort,I maintain my effort even in the face of adversity.,0.1441,-0.137,0.943,0.5784
+gpt × RAG,gpt,RAG,Perseverance of Effort,I find it challenging to keep going when I experience setbacks.,0.2213,0.146,0.654,0.6144
+gpt × RAG,gpt,RAG,Perseverance of Effort,I ultimately see tasks through to their completion.,0.15,0.112,0.573,0.5096
+gpt × RAG,gpt,RAG,Perseverance of Effort,I allow challenges to derail my progress.,0.0952,0.247,0.523,0.4324
+gpt × RAG,gpt,RAG,Perseverance of Effort,I am relentless in achieving my objectives despite difficulties.,0.1085,-0.036,0.809,0.5225
+gpt × RAG,gpt,RAG,Perseverance of Effort,I struggle to stay engaged when faced with hurdles.,0.0659,0.227,0.57,0.4666
+gpt × RAG,gpt,RAG,Perseverance of Effort,I find pride in completing difficult tasks.,0.1661,0.051,0.646,0.5205
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I often find myself easily sidetracked by new ideas.,0.1611,0.946,-0.234,0.4104
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I pursue long-term goals with determination.,-0.0022,-0.015,0.799,0.487
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I frequently jump between projects without completing them.,0.0607,0.669,0.021,0.4076
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I prioritize following through with my original ambitions.,0.0666,0.118,0.649,0.5201
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,My focus shifts quickly when faced with new challenges.,0.1631,0.563,0.227,0.504
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am committed to seeing my goals through to the end.,-0.0791,-0.22,0.948,0.4063
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I tend to lose interest in projects after a while.,0.1026,0.732,-0.025,0.4055
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I keep my attention fixed on what matters most to me.,0.2797,0.155,0.529,0.5845
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am easily distracted by enticing new interests.,0.2213,0.818,-0.132,0.4305
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,"Once I choose a goal, I dedicate myself to it completely.",0.1191,-0.016,0.702,0.4706
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I struggle to maintain interest in a single objective.,0.2469,0.498,0.273,0.6048
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,New opportunities often pull me away from my plans.,0.0429,0.761,-0.049,0.3211
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I believe in giving my best effort to one pursuit.,0.1018,-0.055,0.696,0.4584
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I rarely feel the need to abandon a long-term project.,0.0936,0.524,0.176,0.4631
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I find it difficult to resist intriguing new ventures.,0.0676,0.661,0.048,0.3907
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am persistent in working toward my main objective.,-0.0135,-0.048,0.808,0.4652
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I frequently explore different projects without focus.,0.1747,0.687,0.004,0.4538
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I thrive when committed to one clear ambition.,0.2322,0.034,0.702,0.6169
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I have a hard time sticking to a single interest over time.,0.2246,0.595,0.134,0.5567
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I tend to return to my original project after distractions.,0.1482,0.617,0.118,0.5364
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I easily lose sight of my goals in favor of novel ideas.,0.1659,0.693,0.051,0.4606
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am disciplined about finishing what I start.,-0.0824,0.062,0.652,0.4165
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I often feel the pull to explore fresh interests.,0.1554,0.751,-0.095,0.407
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I excel in maintaining focus on my singular pursuits.,0.2785,0.13,0.609,0.691
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am quick to abandon my initial plans for newer ones.,0.1015,0.699,-0.004,0.3424
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I take pride in my ability to stay committed to my goals.,-0.0035,-0.07,0.84,0.4597
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I often change directions based on the latest trend.,0.1138,0.565,0.03,0.2959
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am focused and unwavering when it comes to my goals.,0.2059,-0.045,0.788,0.5571
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I frequently shift my focus to fleeting interests.,0.2914,0.759,-0.019,0.5652
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I believe in dedicating time and energy to one ambition.,0.2055,0.003,0.643,0.5778
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I are excitable about new projects and neglect my current ones.,0.1529,0.587,0.093,0.4271
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I enjoy the depth that comes with sustained effort on one goal.,0.0161,0.092,0.639,0.5449
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I am often tempted to chase after new distractions.,0.165,0.852,-0.121,0.4073
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,"Once I’ve chosen a path, I stick to it consistently.",0.0886,0.148,0.553,0.462
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Consistency of Interest,I can easily lose interest in my previous pursuits.,0.1665,0.78,-0.053,0.4463
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I continue working even when I face challenges.,0.2051,0.078,0.665,0.5272
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I easily give up when things become difficult.,0.0966,0.523,0.198,0.3587
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I push through difficulties to reach my goals.,0.1976,0.055,0.735,0.545
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,Setbacks often make me abandon my projects.,0.136,0.655,0.072,0.4698
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I remain focused on my tasks despite obstacles.,-0.0453,0.078,0.732,0.5108
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I often lose motivation when faced with setbacks.,0.1617,0.594,0.194,0.4947
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I find ways to keep going when the situation is tough.,0.229,0.2,0.514,0.5501
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I keep trying until I achieve what I set out to do.,0.0692,0.061,0.698,0.4979
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I tend to quit when my efforts do not yield quick results.,0.039,0.478,0.245,0.3678
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,"I believe in completing what I've started, no matter the hurdles.",0.1834,-0.035,0.758,0.5583
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I frequently allow challenges to deter my progress.,0.0877,0.592,0.211,0.4414
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I am determined to see my projects through to the end.,0.0793,-0.085,0.792,0.4956
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I often feel discouraged and stop trying during tough times.,0.1279,0.583,0.132,0.4149
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I am resilient in the face of adversity.,0.1998,0.102,0.54,0.4658
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I am persistent and don’t easily lose sight of my goals.,0.0039,0.102,0.682,0.4675
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,Difficulties frequently disrupt my efforts.,0.1357,0.565,0.176,0.4514
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I maintain my effort until the task is fully completed.,0.0633,0.009,0.715,0.5321
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I often feel overwhelmed and stop pursuing my goals.,-0.0354,0.618,0.154,0.3565
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I thrive on challenges and pursue them relentlessly.,0.0473,0.129,0.606,0.4024
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I often feel like giving up when the going gets tough.,0.1255,0.566,0.136,0.3816
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I work diligently even when success seems unlikely.,0.1616,0.016,0.732,0.5355
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I lose faith in myself when I encounter setbacks.,0.1985,0.406,0.294,0.4537
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I remain committed to my tasks regardless of issues.,0.0375,-0.018,0.774,0.478
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I let frustration derail my projects too often.,-0.0084,0.717,0.02,0.3723
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I navigate setbacks without losing sight of my objectives.,0.0935,0.138,0.616,0.5353
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I allow negative experiences to influence my productivity.,0.0557,0.367,0.262,0.3467
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I strive to finish despite facing significant hurdles.,0.2395,0.053,0.744,0.6257
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I find myself abandoning tasks when they become challenging.,0.0678,0.657,0.138,0.4508
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I keep my focus and energy even when problems arise.,-0.0368,0.168,0.574,0.4492
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I surrender my efforts when I feel things are too difficult.,0.0362,0.419,0.278,0.3672
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I hold onto my goals even when progress stalls.,0.044,0.173,0.623,0.508
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I can quickly become disheartened by challenges.,0.1014,0.638,0.13,0.4059
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I approach difficult tasks with determination.,0.1366,0.073,0.719,0.5307
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I am easily discouraged by obstacles in my path.,0.0944,0.51,0.26,0.3939
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I take setbacks as motivation to work harder.,0.2312,0.201,0.472,0.5337
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,Difficulty often leads me to reconsider my efforts.,0.0648,0.652,0.134,0.4421
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,"I remain enthusiastic about my work, despite challenges.",0.1084,0.139,0.616,0.4842
+gpt × Re-Ranked RAG,gpt,Re-Ranked RAG,Perseverance of Effort,I feel tempted to quit when I encounter frustrating issues.,0.0629,0.591,0.091,0.3355
+llama × No-RAG,llama,No-RAG,Consistency of Interest,I often find myself fully committed to a single goal.,0.2184,0.575,0.225,0.6231
+llama × No-RAG,llama,No-RAG,Consistency of Interest,New ideas rarely distract me from my current project.,0.1984,0.698,-0.061,0.4845
+llama × No-RAG,llama,No-RAG,Consistency of Interest,It's hard for me to resist exploring new hobbies.,0.0898,0.588,0.074,0.4005
+llama × No-RAG,llama,No-RAG,Consistency of Interest,I get bored with tasks that require a long time to complete.,0.0096,0.791,-0.108,0.3136
+llama × No-RAG,llama,No-RAG,Consistency of Interest,My goals tend to remain the same over time.,0.1129,0.385,0.289,0.4367
+llama × No-RAG,llama,No-RAG,Consistency of Interest,I frequently switch between different activities to avoid boredom.,0.1141,0.738,-0.147,0.375
+llama × No-RAG,llama,No-RAG,Consistency of Interest,"A single, long-term objective drives most of my decisions.",0.1904,0.415,0.285,0.5114
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Shifting priorities is not a problem for me.,0.1408,0.525,0.096,0.42
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Jumping between tasks helps me stay energized and motivated.,-0.0113,0.571,0.086,0.4056
+llama × No-RAG,llama,No-RAG,Consistency of Interest,My interests remain stable even when circumstances change.,0.0899,0.378,0.243,0.4409
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Exploring various interests is more fun than focusing on one.,0.2379,0.692,-0.193,0.4433
+llama × No-RAG,llama,No-RAG,Consistency of Interest,I prioritize completing my current task over starting a new one.,0.0847,0.723,0.04,0.4957
+llama × No-RAG,llama,No-RAG,Consistency of Interest,The thrill of a new project often leads me to abandon the old.,0.0831,0.706,-0.035,0.3937
+llama × No-RAG,llama,No-RAG,Consistency of Interest,"When faced with a problem, I usually try to find one solution and stick to it.",0.0528,0.429,0.267,0.4149
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Completing a task is more important to me than exploring new ideas.,0.0411,0.646,0.077,0.4575
+llama × No-RAG,llama,No-RAG,Consistency of Interest,A multitude of projects competing for my attention can be overwhelming.,0.1776,0.759,-0.101,0.4852
+llama × No-RAG,llama,No-RAG,Consistency of Interest,New experiences are essential to prevent stagnation in my life.,0.0146,0.374,0.228,0.3254
+llama × No-RAG,llama,No-RAG,Consistency of Interest,The idea of dedicating years to one pursuit seems appealing to me.,0.1688,0.54,0.044,0.4893
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Abandoning a goal mid-way is not something I usually do.,-0.0407,0.472,0.173,0.36
+llama × No-RAG,llama,No-RAG,Consistency of Interest,It's essential for me to try out different activities to find the best fit.,0.0098,0.458,0.102,0.2535
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Pursuing one major goal at a time is my preferred approach.,0.1918,0.574,0.118,0.5579
+llama × No-RAG,llama,No-RAG,Consistency of Interest,"If a task doesn't immediately capture my interest, I tend to move on.",0.1014,0.821,-0.116,0.3894
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Devoting myself to a single cause is crucial for achieving success.,0.2347,0.297,0.351,0.6349
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Constantly changing my focus helps keep my mind sharp.,0.2444,0.532,0.118,0.5544
+llama × No-RAG,llama,No-RAG,Consistency of Interest,My interests evolve rapidly as I learn more about the world.,0.1487,0.483,0.032,0.2649
+llama × No-RAG,llama,No-RAG,Consistency of Interest,"When working on a project, I try to avoid distractions and stay focused.",0.1917,0.606,0.103,0.5973
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Long-term dedication to a single pursuit can be suffocating.,0.2266,0.553,0.077,0.6417
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Staying on track with my current project is relatively easy for me.,0.0461,0.529,0.168,0.4621
+llama × No-RAG,llama,No-RAG,Consistency of Interest,I'm not tempted by new opportunities when I'm mid-project.,0.1322,0.625,0.026,0.4505
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Focusing on one task for an extended period bores me.,0.2217,0.769,-0.099,0.5465
+llama × No-RAG,llama,No-RAG,Consistency of Interest,A multitude of options for projects often leaves me indecisive.,0.1028,0.747,-0.134,0.3697
+llama × No-RAG,llama,No-RAG,Consistency of Interest,I'm inclined to thoroughly explore one subject rather than skimming many.,0.2115,0.675,-0.13,0.401
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Starting a new project before finishing the current one is common for me.,0.0296,0.729,-0.077,0.4179
+llama × No-RAG,llama,No-RAG,Consistency of Interest,Completing a task from start to finish without interruption is satisfying.,-0.1291,0.506,0.111,0.4465
+llama × No-RAG,llama,No-RAG,Consistency of Interest,It's challenging for me to settle on just one thing I want to achieve.,0.127,0.517,0.223,0.4899
+llama × No-RAG,llama,No-RAG,Consistency of Interest,"My long-term goals rarely change, even when faced with setbacks.",-0.0146,0.281,0.486,0.4531
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"I always push myself to finish what I start, even when it gets tough.",0.1876,0.241,0.574,0.5616
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I am willing to put in extra effort to achieve my long-term goals.,0.0792,0.117,0.635,0.4286
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Difficulty motivates me to work even harder to succeed.,0.1087,0.068,0.678,0.446
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I tend to abandon projects that are not going as smoothly as I had hoped.,0.0414,0.566,0.141,0.382
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,My determination to succeed helps me overcome setbacks and failures.,0.196,-0.116,0.901,0.5596
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I often find myself procrastinating when faced with challenging tasks.,0.0787,0.531,0.224,0.4182
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"When I encounter a problem, I try to find a way around it and continue moving forward.",0.1499,0.232,0.492,0.4489
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"I am committed to seeing my projects through to completion, no matter what.",0.0672,0.257,0.496,0.4801
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I usually start strong but lose momentum as tasks become more difficult.,0.1366,0.498,0.273,0.5223
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Challenging situations make me more persistent and driven to succeed.,0.1449,-0.001,0.797,0.4993
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I have a hard time sticking with a task when it becomes boring or tedious.,0.0145,0.697,0.059,0.3946
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"My goals are important to me, and I will do whatever it takes to achieve them.",0.0243,0.02,0.709,0.362
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I often struggle to maintain my focus and motivation over the long term.,-0.0721,0.489,0.266,0.419
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"When I fail, I use it as an opportunity to learn and try again.",0.1545,0.109,0.55,0.3782
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I am not afraid to take on difficult tasks and see them through to the end.,0.182,0.183,0.595,0.521
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I sometimes lack the stamina to push through and finish what I started.,0.1558,0.497,0.239,0.4889
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I believe that perseverance is essential for achieving success in any area of life.,0.0898,-0.032,0.687,0.4864
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Giving up on a task is often the easiest and most appealing option for me.,-0.0083,0.627,0.087,0.3902
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"I am driven to succeed, even when the journey gets long and arduous.",0.1154,0.018,0.786,0.4652
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"When faced with a difficult decision, I tend to put it off rather than tackle it head-on.",0.0426,0.5,0.18,0.3534
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,My resolve strengthens when I am faced with opposition or criticism.,0.0566,0.024,0.619,0.3896
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I have trouble maintaining my enthusiasm and energy for extended periods.,0.0007,0.455,0.186,0.3971
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Frustration can cause me to lose my cool and abandon a task altogether.,0.0474,0.42,0.196,0.3673
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I am more likely to give up on a task if I do not see immediate results.,0.0569,0.463,0.287,0.4028
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Overcoming obstacles is what drives me to continue striving for excellence.,0.1349,-0.036,0.822,0.539
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Setbacks and failures make me question my ability to succeed.,0.2139,0.045,0.641,0.4819
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"When a task becomes too difficult, I look for ways to simplify it or ask for help.",0.082,0.465,0.19,0.3609
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I am passionate about my goals and will persevere through any challenges that come my way.,0.0946,-0.021,0.837,0.4914
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,I can be deterred by fear of failure or making mistakes.,0.0553,0.224,0.446,0.3647
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Achieving my goals is more important to me than avoiding discomfort or hard work.,0.0653,0.227,0.529,0.4518
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,"When things get tough, I remind myself why my goals are important and keep pushing forward.",0.1071,0.056,0.696,0.4877
+llama × No-RAG,llama,No-RAG,Perseverance of Effort,Difficulty and adversity make me more determined to prove myself and succeed.,0.1872,-0.128,0.831,0.4602
+llama × RAG,llama,RAG,Consistency of Interest,I can focus on a goal without getting bored.,0.1882,0.585,0.159,0.5479
+llama × RAG,llama,RAG,Consistency of Interest,My interests often change suddenly.,0.1713,0.773,-0.184,0.3305
+llama × RAG,llama,RAG,Consistency of Interest,I prioritize completing a task over exploring new ideas.,0.1235,0.601,0.15,0.5183
+llama × RAG,llama,RAG,Consistency of Interest,New projects rarely distract me from my current goals.,0.1997,0.697,0.06,0.545
+llama × RAG,llama,RAG,Consistency of Interest,I have a hard time sticking to one hobby.,0.1527,0.754,-0.066,0.452
+llama × RAG,llama,RAG,Consistency of Interest,It's easy for me to set aside enticing opportunities that aren't relevant to my main objective.,0.1658,0.694,0.028,0.4382
+llama × RAG,llama,RAG,Consistency of Interest,I struggle to commit to long-term plans.,0.0519,0.57,0.2,0.4213
+llama × RAG,llama,RAG,Consistency of Interest,Finishing what I start is more important to me than trying something new.,-0.0236,0.552,0.165,0.472
+llama × RAG,llama,RAG,Consistency of Interest,My attention is drawn to whatever is novel and exciting.,0.1899,0.663,-0.142,0.359
+llama × RAG,llama,RAG,Consistency of Interest,I can concentrate on a single objective for an extended period.,0.2436,0.592,0.094,0.6142
+llama × RAG,llama,RAG,Consistency of Interest,Shifting between different activities helps me stay engaged.,0.1158,0.633,0.03,0.4498
+llama × RAG,llama,RAG,Consistency of Interest,I don't let intriguing sidelines divert me from my primary aim.,0.2258,0.65,0.013,0.5039
+llama × RAG,llama,RAG,Consistency of Interest,My mind often wanders to other pursuits when working on a task.,0.1218,0.699,0.029,0.4548
+llama × RAG,llama,RAG,Consistency of Interest,"Once I start something, I see it through to completion.",-0.0683,0.508,0.205,0.4114
+llama × RAG,llama,RAG,Consistency of Interest,It's challenging for me to resist the allure of new ventures.,0.1101,0.585,0.139,0.4453
+llama × RAG,llama,RAG,Consistency of Interest,I make time for activities that align with my long-term goals.,0.0151,0.557,0.131,0.3832
+llama × RAG,llama,RAG,Consistency of Interest,I find it difficult to settle on a single path and stick to it.,0.1146,0.652,0.095,0.481
+llama × RAG,llama,RAG,Consistency of Interest,The latest trends rarely sway me from my established goals.,0.1085,0.553,0.125,0.4158
+llama × RAG,llama,RAG,Consistency of Interest,I have a tendency to jump from one interest to another.,0.2052,0.832,-0.185,0.4121
+llama × RAG,llama,RAG,Consistency of Interest,Devoting myself to one endeavor is not a problem for me.,0.1762,0.683,0.04,0.5553
+llama × RAG,llama,RAG,Consistency of Interest,Constantly switching between projects is not my style.,0.1478,0.657,-0.041,0.4039
+llama × RAG,llama,RAG,Consistency of Interest,New experiences frequently capture my attention and lead me astray.,0.1196,0.683,-0.051,0.3601
+llama × RAG,llama,RAG,Consistency of Interest,Sustaining my enthusiasm for a single undertaking over time is tough.,0.0289,0.541,0.278,0.6276
+llama × RAG,llama,RAG,Consistency of Interest,My daily activities are centered around my core objectives.,0.0945,0.528,0.1,0.4246
+llama × RAG,llama,RAG,Consistency of Interest,A multitude of interests competes for my attention.,0.2319,0.79,-0.18,0.4129
+llama × RAG,llama,RAG,Consistency of Interest,"Once engaged in a project, I am not easily swayed by alternatives.",0.1329,0.621,0.09,0.4648
+llama × RAG,llama,RAG,Consistency of Interest,Pursuing multiple passions simultaneously is not my approach.,0.2089,0.689,-0.05,0.4616
+llama × RAG,llama,RAG,Consistency of Interest,Dedicating myself to a single pursuit comes naturally to me.,0.2088,0.661,0.068,0.5821
+llama × RAG,llama,RAG,Consistency of Interest,My diverse interests sometimes hinder my ability to focus.,0.1933,0.78,-0.051,0.4825
+llama × RAG,llama,RAG,Consistency of Interest,The prospect of fresh challenges keeps me motivated and on track.,-0.0333,0.412,0.296,0.3949
+llama × RAG,llama,RAG,Consistency of Interest,"When I start something, I am determined to finish it.",-0.0655,0.437,0.249,0.396
+llama × RAG,llama,RAG,Consistency of Interest,Novelty seeking often interferes with my capacity to maintain focus.,0.179,0.649,-0.009,0.4321
+llama × RAG,llama,RAG,Consistency of Interest,Staying true to my original intentions is a hallmark of my approach.,0.1018,0.512,0.1,0.4742
+llama × RAG,llama,RAG,Perseverance of Effort,Push through challenges to achieve goals.,0.1571,-0.013,0.782,0.5781
+llama × RAG,llama,RAG,Perseverance of Effort,Give up when tasks become frustrating.,0.056,0.122,0.661,0.4645
+llama × RAG,llama,RAG,Perseverance of Effort,Continue working even when progress is slow.,0.1356,0.073,0.61,0.5229
+llama × RAG,llama,RAG,Perseverance of Effort,Struggle to complete tasks when faced with obstacles.,0.1734,0.11,0.666,0.5823
+llama × RAG,llama,RAG,Perseverance of Effort,Believe that hard work will eventually pay off.,0.2414,-0.124,0.633,0.4941
+llama × RAG,llama,RAG,Perseverance of Effort,Quit when things don't go as planned.,0.0588,0.071,0.556,0.391
+llama × RAG,llama,RAG,Perseverance of Effort,Stay motivated even in the face of failure.,0.1213,-0.037,0.772,0.5325
+llama × RAG,llama,RAG,Perseverance of Effort,Easily get discouraged by setbacks.,0.1386,0.114,0.631,0.5312
+llama × RAG,llama,RAG,Perseverance of Effort,Put in extra effort when needed to succeed.,0.1402,-0.036,0.714,0.507
+llama × RAG,llama,RAG,Perseverance of Effort,Feel a sense of accomplishment when overcoming hurdles.,0.2098,0.022,0.662,0.5521
+llama × RAG,llama,RAG,Perseverance of Effort,Tend to procrastinate when tasks seem too hard.,0.111,0.22,0.494,0.4402
+llama × RAG,llama,RAG,Perseverance of Effort,Persist in the face of adversity to reach objectives.,0.1272,-0.034,0.801,0.6438
+llama × RAG,llama,RAG,Perseverance of Effort,Stop trying when success seems unlikely.,0.0515,0.006,0.617,0.4074
+llama × RAG,llama,RAG,Perseverance of Effort,Stay committed to long-term goals despite short-term obstacles.,0.0114,0.114,0.702,0.587
+llama × RAG,llama,RAG,Perseverance of Effort,Avoid tasks that require sustained effort.,-0.0199,0.261,0.436,0.4552
+llama × RAG,llama,RAG,Perseverance of Effort,Get back to work quickly after a setback.,0.193,-0.04,0.649,0.5426
+llama × RAG,llama,RAG,Perseverance of Effort,Feel overwhelmed by complex tasks and give up.,-0.0161,0.203,0.507,0.3671
+llama × RAG,llama,RAG,Perseverance of Effort,Keep working towards a goal even when it's no longer enjoyable.,0.063,0.152,0.621,0.522
+llama × RAG,llama,RAG,Perseverance of Effort,Refuse to let obstacles stand in the way of success.,0.0549,-0.08,0.722,0.4581
+llama × RAG,llama,RAG,Perseverance of Effort,Stay focused on the end result to push through difficulties.,-0.012,0.066,0.71,0.5779
+llama × RAG,llama,RAG,Perseverance of Effort,Lose motivation when faced with repeated failures.,0.0832,0.134,0.61,0.4775
+llama × RAG,llama,RAG,Perseverance of Effort,Work diligently to overcome barriers to success.,0.127,-0.098,0.799,0.5255
+llama × RAG,llama,RAG,Perseverance of Effort,Abandon tasks that require too much perseverance.,0.0272,0.236,0.52,0.4767
+llama × RAG,llama,RAG,Perseverance of Effort,Strive to complete tasks despite feelings of exhaustion.,0.1221,0.051,0.738,0.5949
+llama × RAG,llama,RAG,Perseverance of Effort,Avoid pushing myself too hard to avoid burnout.,-0.055,0.257,0.371,0.3503
+llama × RAG,llama,RAG,Perseverance of Effort,Persevere through difficult times to achieve success.,0.2209,-0.129,0.85,0.6509
+llama × RAG,llama,RAG,Perseverance of Effort,Work harder when faced with opposition or criticism.,0.0953,-0.093,0.691,0.4305
+llama × RAG,llama,RAG,Perseverance of Effort,Easily become distracted from long-term goals.,-0.1745,0.508,0.258,0.3495
+llama × RAG,llama,RAG,Perseverance of Effort,Stay on track even when faced with unexpected setbacks.,0.1616,0.046,0.693,0.5862
+llama × RAG,llama,RAG,Perseverance of Effort,Feel a sense of pride in overcoming difficult challenges.,0.1915,-0.023,0.67,0.537
+llama × RAG,llama,RAG,Perseverance of Effort,Lack the stamina to complete long and demanding tasks.,0.1247,0.222,0.456,0.4759
+llama × RAG,llama,RAG,Perseverance of Effort,Continue to strive for excellence even in the face of adversity.,0.1424,-0.101,0.779,0.5528
+llama × RAG,llama,RAG,Perseverance of Effort,Give in to frustration when tasks seem insurmountable.,0.0812,0.039,0.704,0.4754
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Stick to one project until it's completed.,0.1974,0.751,-0.095,0.6132
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Avoid getting sidetracked by new ideas.,0.2485,0.527,0.05,0.5404
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Can focus on a single goal for a long time.,0.3035,0.698,-0.009,0.7478
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Often switch between different hobbies.,0.1524,0.625,-0.053,0.3922
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Usually finish what I start before moving on.,-0.0261,0.598,0.136,0.4572
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Tend to jump from one interest to another.,0.2073,0.664,-0.108,0.4343
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Make a plan and follow it through.,-0.026,0.377,0.182,0.3496
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Get bored with tasks that take too long.,-0.0095,0.698,0.02,0.355
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Prioritize tasks to achieve long-term goals.,0.0043,0.628,0.093,0.473
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Find it hard to settle on one career path.,0.0821,0.452,0.172,0.3919
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Have a hard time resisting new distractions.,0.1276,0.5,0.188,0.4822
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Normally see projects through to the end.,-0.128,0.471,0.137,0.3807
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Seldom abandon tasks halfway through.,-0.0389,0.743,0.03,0.5162
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Easily get distracted by social media.,0.1867,0.528,-0.014,0.3402
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Stay on track even when tasks get tedious.,-0.0104,0.691,0.093,0.4787
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Tend to lose interest in activities quickly.,0.1035,0.633,-0.031,0.381
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Set and maintain clear priorities.,0.1838,0.546,0.084,0.5683
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Rarely change my mind about important goals.,0.1688,0.463,0.28,0.5339
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Am often drawn to the latest trends.,0.0901,0.311,0.174,0.2356
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Can maintain attention on a task for hours.,0.1005,0.771,-0.146,0.5416
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Frequently change my mind about what to do.,0.093,0.532,0.145,0.3555
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Stay engaged in activities even when they're challenging.,-0.0322,0.533,0.243,0.5116
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Usually follow through on my commitments.,-0.0589,0.375,0.249,0.3167
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Get restless when doing the same task repeatedly.,0.072,0.667,0.015,0.4402
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Focus on one task at a time to get it done.,0.2514,0.753,-0.07,0.6434
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Often find myself switching between tasks.,0.0692,0.71,0.006,0.4248
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Make a schedule and stick to it.,0.0157,0.499,0.049,0.3329
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Seldom get tired of doing the same thing.,0.0589,0.551,0.086,0.403
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Tend to explore many different fields of study.,0.1542,0.535,-0.104,0.3331
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Rarely procrastinate when faced with a task.,0.0247,0.535,0.187,0.4209
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Can work on a task without taking breaks.,-0.0154,0.73,-0.068,0.468
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Find it challenging to dedicate time to one task.,0.1063,0.719,0.075,0.5271
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Prioritize quality over exploring new ideas.,0.1992,0.467,0.125,0.5182
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Consistency of Interest,Stay on one task even when it gets monotonous.,0.1392,0.85,-0.12,0.5535
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Push through challenges to achieve goals.,0.1571,0.196,0.579,0.5781
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Difficulty motivates me to work harder.,0.1102,0.134,0.556,0.4186
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Overcoming obstacles is essential to success.,0.1494,-0.038,0.73,0.5378
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Setbacks make me question my abilities.,0.1978,-0.038,0.723,0.4602
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I remain committed to my objectives.,-0.0814,0.217,0.429,0.3645
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Challenges are opportunities for growth and learning.,0.1,-0.062,0.603,0.3326
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I often struggle to regain momentum after a failure.,0.1227,0.145,0.627,0.5245
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,My determination grows when faced with resistance.,0.1141,-0.058,0.782,0.4915
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Hard work and persistence are essential for success.,0.186,0.101,0.513,0.5606
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,"When faced with a problem, I try to find a solution.",0.0741,0.062,0.561,0.3433
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I become discouraged when my efforts are not recognized.,0.0697,0.025,0.596,0.3372
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Obstacles help me develop new skills and strategies.,0.0912,0.015,0.635,0.3905
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Giving up is not an option for me.,-0.0126,-0.005,0.491,0.2511
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Frustration leads me to abandon my goals.,0.0299,0.065,0.649,0.3805
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,"The harder the task, the more I am motivated.",0.1286,0.195,0.53,0.446
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I am derailed by minor setbacks and disappointments.,0.1411,0.044,0.602,0.4263
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Success is the result of persistence and dedication.,0.1563,0.068,0.534,0.553
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I lack the energy to continue when faced with difficulties.,0.1818,0.029,0.667,0.423
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Every failure brings me closer to success.,0.1186,-0.139,0.775,0.3772
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I am hesitant to take on challenging tasks.,0.0553,0.236,0.505,0.391
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Working through tough times is necessary for achievement.,0.242,0.004,0.682,0.5772
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,"When faced with adversity, I look for ways to improve.",0.1564,-0.076,0.761,0.4546
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I am paralyzed by fear of failure.,0.0283,-0.033,0.605,0.2716
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Challenging situations bring out the best in me.,0.1714,-0.09,0.711,0.3767
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Setbacks are a normal part of the learning process.,0.2277,0.037,0.521,0.4524
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I have trouble bouncing back from criticism.,0.0563,0.054,0.491,0.3003
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Determination helps me power through difficult situations.,0.1881,-0.015,0.713,0.5124
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I let setbacks hold me back from pursuing my goals.,0.1176,-0.038,0.727,0.4536
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,The possibility of failure stops me from trying.,0.0519,-0.022,0.628,0.3363
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Working hard leads to achieving my objectives.,0.1138,0.164,0.544,0.4893
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,I am not bothered by temporary setbacks and failures.,0.1364,0.013,0.677,0.4756
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,Achieving my goals is worth the effort and struggle.,0.1423,-0.006,0.711,0.4918
+llama × Re-Ranked RAG,llama,Re-Ranked RAG,Perseverance of Effort,"Faced with a roadblock, I search for an alternative route.",0.0863,0.051,0.524,0.3233

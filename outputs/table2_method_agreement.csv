@@ -1,0 +1,13 @@
+Condition,EFA_DAAL%,EFA_verdict,EGA_NMI%,EGA_verdict,Agreement,Interpretation
+llama × No-RAG,79.4,fail,74.8,pass,N,EGA stable communities; EFA loadings diffuse (weak discrimination)
+gpt × No-RAG,92.9,pass,71.1,pass,Y,Both methods agree — structurally sound
+llama × Re-Ranked RAG,100.0,pass,69.2,pass,Y,Both methods agree — structurally sound
+gpt × RAG,92.1,pass,67.7,pass,Y,Both methods agree — structurally sound
+deepseek × RAG,97.0,pass,67.3,pass,Y,Both methods agree — structurally sound
+gemini × No-RAG,48.7,fail,67.1,pass,N,EGA stable communities; EFA loadings diffuse (weak discrimination)
+llama × RAG,98.5,pass,67.1,pass,Y,Both methods agree — structurally sound
+deepseek × No-RAG,98.6,pass,59.9,fail,N,EFA factor structure clear; EGA communities noisy or imbalanced
+gpt × Re-Ranked RAG,54.8,fail,52.2,fail,Y,Both methods flag poor structure — not recommended
+deepseek × Re-Ranked RAG,94.4,pass,51.6,fail,N,EFA factor structure clear; EGA communities noisy or imbalanced
+gemini × Re-Ranked RAG,85.1,pass,44.3,fail,N,EFA factor structure clear; EGA communities noisy or imbalanced
+gemini × RAG,50.7,fail,30.3,fail,Y,Both methods flag poor structure — not recommended
