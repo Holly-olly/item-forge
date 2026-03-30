@@ -46,3 +46,8 @@ nigel_scripts/
 # macOS
 .DS_Store
 Rplots.pdf
+
+# Added by polish tasks
+outputs/intermediate/
+*.pkl
+faiss_index/

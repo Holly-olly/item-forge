@@ -1,112 +1,120 @@
 # item-forge
 
-> LLM-based psychological scale item generation and in-silico validation.
+**LLM-based psychological scale item generation and in-silico validation**
 
-## Overview
+A construct-agnostic pipeline for generating and psychometrically validating psychological
+scale items using large language models. Demonstrated on the Grit scale (Duckworth et al., 2007).
 
-Generates and validates survey items for two Grit personality scales using RAG-augmented LLMs,
-then applies dual psychometric validation (EFA-based + AI-GENIE network psychometrics).
-940 items generated across 12 conditions; 89 high-quality items exported for human expert review.
+---
 
-## Scales
+## What this is
 
-| Scale | Description |
+Scale development typically requires domain experts to write items by hand, with iteration
+cycles measured in months. This pipeline tests whether LLMs can replace or augment that
+process — and if so, which models, under which retrieval conditions, and with what
+measurable psychometric quality.
+
+**4 models × 3 retrieval conditions = 12 pools**, evaluated under fixed prompt and
+temperature (T = 1.0). Validated by two independent psychometric methods.
+
+---
+
+## Key findings
+
+![Model × condition heatmap](outputs/figures/chart_model_condition_heatmap.png)
+
+- **RAG does not uniformly help.** Some models perform equally well with no retrieval;
+  others improve substantially. Knowing which is which has direct practical value when
+  API costs are a constraint.
+- **CI items remain the hard case.** Consistency of Interest discrimination is the
+  binding constraint across all 12 conditions. PE items are consistently easier
+  to generate cleanly.
+- **Cross-method agreement (EFA × EGA)** is the most conservative filter.
+  The 89-item final pool passed both methods independently.
+
+Full results by model × condition: see [`item_forge.ipynb`](item_forge.ipynb) Phase 10.
+
+---
+
+## Construct: Grit
+
+| Subscale | Definition |
 |---|---|
-| **Consistency of Interest (CI)** | Maintaining focus on a single ambition; resisting the urge to shift to new projects |
-| **Perseverance of Effort (PE)** | Sustaining hard work through setbacks; finishing initiated tasks despite difficulties |
+| **Consistency of Interest (CI)** | Maintaining focus on a single long-term ambition; resisting distraction |
+| **Perseverance of Effort (PE)** | Sustaining hard work through setbacks; finishing what is started |
+
+CI items are the hard case. The two-factor structure is debated — some analyses favour
+a unidimensional solution, particularly when CI loadings are weak. A pipeline that
+produces discriminating CI items is doing something non-trivial.
+
+---
 
 ## Pipeline
 
-| Phase | Description |
-|---|---|
-| **1** | Semantic heatmaps: Grit vs Big 5, Remote vs Maladaptive — establish convergent and discriminant validity |
-| **2** | IPIP item embedding (text-embedding-3-small) + FAISS index (3,805 items, 1536D) |
-| **3** | Retrieval validation — verify FAISS returns semantically relevant IPIP items |
-| **4–6** | Item generation: No-RAG / RAG / Re-ranked RAG × 4 LLMs (40 items/scale, temperature=1.0) |
-| **7** | Master CSV merge + cosine similarity quality evaluation |
-| **8** | EFA-based validation: pseudo-factor analysis on MiniLM-L12-v2 embeddings, DAAL accuracy, discrimination scores, cross-loading removal |
-| **9** | AI-GENIE validation: EGA → UVA → bootEGA pipeline (R/EGAnet), NMI and community-match metrics |
-| **10** | Results consolidation: master comparison table, method agreement analysis, final item pool for human review |
-
-## Models
-
-| Model | Provider | Temperature |
-|---|---|---|
-| gemini-2.0-flash-lite | Google AI Studio | 1.0 |
-| gpt-4o-mini | OpenAI | 1.0 |
-| llama-3.3-70b-versatile | Groq | 1.0 |
-| deepseek-r1:8b | Ollama (local) | 1.0 |
-
-## Key Results (Phase 10)
-
-- **Best EFA-based validation:** DeepSeek — DAAL 94–99% across all conditions, highest discrimination scores
-- **Best AI-GENIE validation:** Llama × No-RAG — NMI final 74.8%, 100% community-to-theory match
-- **Method agreement:** 7/12 conditions agreed (5 both-pass, 2 both-fail)
-- **Final human review pool:** 89 items (50 CI, 39 PE) from DeepSeek × No-RAG, GPT × RAG, Llama × No-RAG
-
-See `outputs/human_review_items.csv` for the final item set and `outputs/table1_master_results.csv` for the full comparison table.
-
-## Repository Structure
-
 ```
-item_forge.ipynb        # Main notebook (Phases 1–10)
-efa_items.py                   # Standalone EFA-based validation script
-aigenie_items.R                # Standalone AI-GENIE pipeline (R)
-aipsych_remote.csv             # Reference items for semantic heatmaps
-TedoneItemAssignmentTable30APR21.csv  # IPIP item pool (Tedone, 2021)
-items_*.csv                    # Generated items per model × condition (12 files)
-outputs/
-  final_item_bank.csv          # All items surviving EFA filtering (846 items)
-  final_bank_summary.csv       # Per-condition EFA quality summary
-  human_review_items.csv       # Final 89-item human review pool
-  table1_master_results.csv    # Master validation table (12 conditions × all metrics)
-  table2_method_agreement.csv  # EFA vs AI-GENIE method agreement per condition
-  table3_human_review_counts.csv
-  table4_top10_items.csv
+Construct definition + factor structure
+          │
+          ▼
+  Semantic reference index (FAISS)
+          │
+     ┌────┴────────┬──────────────────┐
+     ▼             ▼                  ▼
+  No-RAG         RAG          Re-ranked RAG
+     └────────────┴──────────────────┘
+                  │
+       4 LLMs × 3 conditions = 12 pools
+                  │
+       ┌──────────┴──────────┐
+       ▼                     ▼
+  Phase 8: EFA          Phase 9: EGA
+  (MiniLM-L12-v2)       (network psychometrics)
+       └──────────┬──────────┘
+                  ▼
+     Phase 10: cross-method comparison
+          89 items → human review
 ```
 
-## Setup
+**Models:** DeepSeek · GPT-4o mini · Gemini · Llama 3
+**Retrieval:** No-RAG · RAG · Re-ranked RAG
+**Validation:** EFA on sentence embeddings + EGA / bootEGA
 
-1. Copy `.env.example` to `.env` and fill in your API keys (OpenAI, Google, Groq):
-   ```
-   cp .env.example .env
-   ```
-2. Install Python dependencies:
-   ```
-   pip install pandas numpy sentence-transformers scikit-learn matplotlib \
-               openai google-genai groq ollama faiss-cpu python-dotenv \
-               tqdm factor_analyzer ipywidgets
-   ```
-3. Install R dependencies (for Phase 9 — AI-GENIE validation):
-   ```r
-   install.packages(c("EGAnet", "igraph"))
-   ```
-4. Ensure Ollama is running locally with `deepseek-r1:8b` pulled:
-   ```
-   ollama pull deepseek-r1:8b
-   ```
-5. Run `item_forge.ipynb` sequentially from Phase 1.
+---
 
-## Standalone Scripts
+## Limitations and open questions
 
-Both scripts can be run independently on any items CSV:
+**Fixed prompt.** All 12 conditions use the same prompt. Model-specific tuning is
+the most immediate lever for improvement.
+
+**Fixed temperature (T = 1.0).** Temperature effects on item diversity and cross-loading
+are the next experiment.
+
+**Unidimensional framing untested.** Whether prompting for Grit as a unified construct
+produces better or worse pools remains open.
+
+**Human review pending.** The 89-item pool has not yet been rated by domain experts.
+
+---
+
+## How to run
 
 ```bash
-# EFA-based validation
-python efa_items.py --items my_items.csv --output-dir results/
-
-# AI-GENIE validation (requires embeddings produced by efa_items.py)
-Rscript aigenie_items.R \
-    --items my_items.csv \
-    --embeddings results/embeddings.csv \
-    --output-dir results/ \
-    --boot-iter 100 \
-    --seed 42
+git clone https://github.com/Holly-olly/item-forge
+cd item-forge
+pip install pandas numpy sentence-transformers scikit-learn matplotlib \
+            openai google-genai groq ollama faiss-cpu python-dotenv \
+            tqdm factor_analyzer ipywidgets
+# Copy .env.example to .env and fill in API keys: OPENAI_API_KEY, GEMINI_API_KEY, GROQ_API_KEY
+# DeepSeek runs locally via Ollama: ollama pull deepseek-r1:8b
+cp .env.example .env
+jupyter lab item_forge.ipynb
 ```
 
-## Acknowledgements
+To view results only (no generation): run Phase 8–10 cells and the Results section.
+Generation cells (Phases 4–6) can be skipped if `outputs/` already exists.
 
-This project builds on two open-source works, both released under the MIT License:
+---
+
+## Acknowledgements
 
 **EFA-based validation approach**
 Adapted from [mistr3ated/AI-Psychometrics-Nigel](https://github.com/mistr3ated/AI-Psychometrics-Nigel)
@@ -119,11 +127,17 @@ Adapted from [laralee/AIGENIE](https://github.com/laralee/AIGENIE)
 (Russell-Lasalandra, Christensen & Golino, 2025).
 ([License](https://github.com/laralee/AIGENIE/blob/main/LICENSE))
 
+---
+
 ## References
 
 Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007).
 Grit: Perseverance and passion for long-term goals.
 *Journal of Personality and Social Psychology, 92*(6), 1087–1101.
+
+Credé, M., Tynan, M. C., & Harms, P. D. (2017). Much ado about grit:
+A meta-analytic synthesis of the grit literature.
+*Journal of Personality and Social Psychology, 113*(3), 492–511.
 
 Goldberg, L. R. (1999). A broad-bandwidth, public-domain, personality inventory measuring
 the lower-level facets of several five-factor models. *Personality Psychology in Europe, 7*, 7–28.
@@ -132,7 +146,3 @@ the lower-level facets of several five-factor models. *Personality Psychology in
 Russell-Lasalandra, M., Christensen, A. P., & Golino, H. (2025).
 AI-GENIE: AI-Generated Item Networks with Exploratory Graph Analysis.
 *PsyArXiv.* https://doi.org/10.31234/osf.io/XXXX
-
-## License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
