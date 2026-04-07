@@ -49,6 +49,31 @@ Of 12 conditions, only 5 see agreement. The EFA–EGA split reveals that factor 
 
 ---
 
+## Human evaluation design
+
+The 89-item pool is undergoing content validity review by 3 domain experts using a blind factor assignment protocol.
+
+**Format:** Items are shown without subscale labels. Each expert makes one decision per item:
+
+| Option | Meaning |
+|--------|---------|
+| CI — Keep | Measures Consistency of Interest; include as-is |
+| CI — Revise | Measures CI; wording needs improvement |
+| PE — Keep | Measures Perseverance of Effort; include as-is |
+| PE — Revise | Measures PE; wording needs improvement |
+| Both | Measures Grit generally; does not discriminate CI from PE |
+| Neither | Off-construct; remove |
+
+**Why blind assignment:** showing experts the intended subscale anchors them toward confirmation. Blind assignment tests whether items are face-valid enough to be correctly categorised — consistent with 2025 CVR benchmarks (82% correct construct assignment reported as the validity standard).
+
+**Why one question per item:** selecting CI or PE already encodes both the construct assignment and the quality rating (Keep vs Revise). Selecting Both or Neither is the complete decision — no quality rating is meaningful for items that fail the assignment test.
+
+**Set split:** 89 items split into 3 balanced sets (~30 each, stratified by subscale and generation condition). Each expert rates 2 sets (~60 items, ~25 min). Every item receives exactly 2 independent ratings.
+
+**Retention:** items kept if both raters assign the same subscale and at least one rates Keep or Revise. Items rated Both by both experts are preserved in a separate unidimensional pool for potential future use.
+
+Full protocol: [`human_rate_report.md`](human_rate_report.md)
+
 ## Construct: Grit
 
 | Subscale | Definition |
