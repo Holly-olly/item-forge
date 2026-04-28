@@ -1,0 +1,31 @@
+set_item_num,Scale,Item_Text,Condition,disc_score
+1,Perseverance of Effort,I can power through difficult tasks.,deepseek × No-RAG,0.2329
+2,Perseverance of Effort,I find it challenging to keep going when I experience setbacks.,gpt × RAG,0.2213
+3,Perseverance of Effort,I find it hard to complete a started job.,deepseek × No-RAG,0.2068
+4,Perseverance of Effort,"I always push myself to finish what I start, even when it gets tough.",llama × No-RAG,0.1875
+5,Perseverance of Effort,"I work diligently, no matter how hard the situation gets.",gpt × RAG,0.1756
+6,Perseverance of Effort,"I can persevere, even in challenging projects.",deepseek × No-RAG,0.1573
+7,Perseverance of Effort,I sometimes lack the stamina to push through and finish what I started.,llama × No-RAG,0.1559
+8,Perseverance of Effort,I ultimately see tasks through to their completion.,gpt × RAG,0.1498
+9,Perseverance of Effort,"If something does not come easily, I give up.",deepseek × No-RAG,0.1393
+10,Perseverance of Effort,I usually start strong but lose momentum as tasks become more difficult.,llama × No-RAG,0.1366
+11,Perseverance of Effort,I remain persistent even when results are disappointing.,gpt × RAG,0.1285
+12,Perseverance of Effort,I often feel like giving up when the going gets tough.,gpt × RAG,0.1254
+13,Perseverance of Effort,I let difficulties distract me from finishing what I began.,deepseek × No-RAG,0.1213
+14,Consistency of Interest,"When I am focused on a main aim, I rarely let my attention wander.",deepseek × No-RAG,0.2969
+15,Consistency of Interest,My focus remains unwavering on my primary objectives.,deepseek × No-RAG,0.2407
+16,Consistency of Interest,Exploring various interests is more fun than focusing on one.,llama × No-RAG,0.2379
+17,Consistency of Interest,Focusing on one task for an extended period bores me.,llama × No-RAG,0.2217
+18,Consistency of Interest,I do not often entertain shifting my fundamental ambitions.,deepseek × No-RAG,0.2163
+19,Consistency of Interest,I often lose focus when new projects arise.,gpt × RAG,0.2075
+20,Consistency of Interest,New ideas rarely distract me from my current project.,llama × No-RAG,0.1984
+21,Consistency of Interest,I maintain a steady concentration on my fundamental ambitions.,deepseek × No-RAG,0.1944
+22,Consistency of Interest,"A single, long-term objective drives most of my decisions.",llama × No-RAG,0.1904
+23,Consistency of Interest,I prioritize deepening my expertise in one area.,gpt × RAG,0.1867
+24,Consistency of Interest,My energy is usually directed towards my central interests.,deepseek × No-RAG,0.1697
+25,Consistency of Interest,I commonly feel the pull towards different passions.,gpt × RAG,0.1644
+26,Consistency of Interest,I find myself consistently returning to the same types of interests.,deepseek × No-RAG,0.1538
+27,Consistency of Interest,My interests evolve rapidly as I learn more about the world.,llama × No-RAG,0.1487
+28,Consistency of Interest,I struggle to ignore new ideas while working.,gpt × RAG,0.1338
+29,Consistency of Interest,I am reluctant to shift my main efforts from a successful path.,deepseek × No-RAG,0.131
+30,Consistency of Interest,It's challenging for me to settle on just one thing I want to achieve.,llama × No-RAG,0.127

@@ -1,0 +1,41 @@
+#,Scale,Model,Condition,Item,disc_score,cosine_sim,Form_Set,Expert_O,Expert_L,Expert_I,Decision,Decision_reason,both_removed
+1,Perseverance of Effort,GPT-4o mini,RAG,I persevere through tough situations until I succeed.,0.2502,0.5544,A,PE Keep,PE Keep,,Include,PE_Keep/Keep,False
+2,Perseverance of Effort,DeepSeek,No-RAG,"I finish tasks, even difficult ones, well.",0.2351,0.4433,A,PE Revise,PE Revise,,Include,PE_Revise/Revise,False
+3,Perseverance of Effort,DeepSeek,No-RAG,I can power through difficult tasks.,0.2329,0.6349,B,,PE Keep,PE Revise,Include,PE_Revise/Keep,False
+4,Perseverance of Effort,DeepSeek,No-RAG,I have the determination to push through setbacks.,0.2276,0.6417,C,PE Keep,,PE Keep,Include,PE_Keep/Keep,False
+5,Perseverance of Effort,GPT-4o mini,RAG,I find it challenging to keep going when I experience setbacks.,0.2213,0.5465,B,,PE Keep,PE Keep,Include,PE_Keep/Keep,False
+6,Perseverance of Effort,GPT-4o mini,RAG,"I finish what I start, no matter the difficulties.",0.2167,0.6231,C,PE Keep,,PE Keep,Include,PE_Keep/Keep,False
+8,Perseverance of Effort,DeepSeek,No-RAG,"I can keep going, even when things are tough.",0.208,0.4014,A,PE Keep,PE Keep,,Include,PE_Keep/Keep,False
+10,Perseverance of Effort,GPT-4o mini,RAG,I keep pushing through even when I face challenges.,0.2032,0.5579,A,PE Keep,PE Keep,,Include,PE_Keep/Keep,False
+11,Perseverance of Effort,DeepSeek,No-RAG,I can keep going even after several failures.,0.1889,0.5973,C,PE Keep,,PE Keep,Include,PE_Keep/Keep,False
+15,Perseverance of Effort,GPT-4o mini,RAG,"I work diligently, no matter how hard the situation gets.",0.1756,0.521,B,,PE Keep,PE Keep,Include,PE_Keep/Keep,False
+16,Perseverance of Effort,GPT-4o mini,RAG,I find it hard to continue when things don't go as planned.,0.1731,0.4852,C,PE Keep,,PE Keep,Include,PE_Keep/Keep,False
+18,Perseverance of Effort,DeepSeek,No-RAG,I do not feel strong enough to complete difficult tasks.,0.1624,0.4889,A,PE Revise,PE Keep,,Include,PE_Revise/Keep,False
+19,Perseverance of Effort,DeepSeek,No-RAG,"I can persevere, even in challenging projects.",0.1573,0.3781,B,,PE Keep,PE Keep,Include,PE_Keep/Keep,False
+23,Perseverance of Effort,DeepSeek,No-RAG,"When a task requires effort, I see it through.",0.1508,0.5223,A,PE Keep,PE Keep,,Include,PE_Keep/Keep,False
+26,Perseverance of Effort,GPT-4o mini,RAG,I maintain my effort even in the face of adversity.,0.1441,0.4899,C,PE Keep,,PE Revise,Include,PE_Keep/Revise,False
+27,Perseverance of Effort,DeepSeek,No-RAG,"If something does not come easily, I give up.",0.1393,0.6286,B,,PE Keep,PE Keep,Include,PE_Keep/Keep,False
+31,Perseverance of Effort,DeepSeek,No-RAG,"I try my best on every task, even if it fails.",0.1298,0.588,C,PE Keep,,PE Keep,Include,PE_Keep/Keep,False
+33,Perseverance of Effort,GPT-4o mini,RAG,"I consistently put in effort, regardless of the outcome.",0.1281,0.5559,C,PE Keep,,PE Keep,Include,PE_Keep/Keep,False
+34,Perseverance of Effort,GPT-4o mini,RAG,I am determined to overcome hurdles in my work.,0.128,0.4566,A,PE Revise,PE Keep,,Include,PE_Revise/Keep,False
+39,Perseverance of Effort,DeepSeek,No-RAG,"When something is begun, I complete it, no matter what.",0.1212,0.4313,C,PE Keep,,PE Revise,Include,PE_Keep/Revise,False
+40,Consistency of Interest,DeepSeek,No-RAG,I resist the urge to frequently switch my primary focus.,0.3089,0.5038,A,CI Revise,CI Keep,,Include,CI_Revise/Keep,False
+42,Consistency of Interest,GPT-4o mini,RAG,I am intentional about developing a singular ambition.,0.2796,0.6114,A,CI Revise,CI Revise,,Include,CI_Revise/Revise,False
+43,Consistency of Interest,DeepSeek,No-RAG,I tend not to change my main interest for a different one.,0.2691,0.4784,C,CI Keep,,CI Keep,Include,CI_Keep/Keep,False
+44,Consistency of Interest,DeepSeek,No-RAG,I am single-minded in my professional aspirations.,0.2676,0.5612,A,CI Keep,CI Keep,,Include,CI_Keep/Keep,False
+46,Consistency of Interest,DeepSeek,No-RAG,My focus remains unwavering on my primary objectives.,0.2407,0.4176,B,,CI Keep,CI Keep,Include,CI_Keep/Keep,False
+49,Consistency of Interest,DeepSeek,No-RAG,My primary interest usually absorbs my thoughts first.,0.2323,0.4112,C,CI Revise,,CI Revise,Include,CI_Revise/Revise,False
+50,Consistency of Interest,DeepSeek,No-RAG,My core interests rarely lose my attention.,0.2284,0.5959,A,CI Revise,CI Revise,,Include,CI_Revise/Revise,False
+54,Consistency of Interest,DeepSeek,No-RAG,I do not often entertain shifting my fundamental ambitions.,0.2163,0.3969,B,,CI Revise,CI Keep,Include,CI_Keep/Revise,False
+58,Consistency of Interest,DeepSeek,No-RAG,My main ambition stays the consistent focus of my energy.,0.2046,0.4276,A,CI Keep,CI Revise,,Include,CI_Keep/Revise,False
+63,Consistency of Interest,GPT-4o mini,RAG,I often feel the urge to shift to new projects.,0.1913,0.5802,C,CI Keep,,CI Keep,Include,CI_Keep/Keep,False
+65,Consistency of Interest,DeepSeek,No-RAG,I avoid letting new ideas derail my primary goals.,0.1885,0.6144,C,CI Keep,,CI Revise,Include,CI_Keep/Revise,False
+66,Consistency of Interest,GPT-4o mini,RAG,I often feel like I can’t settle on one pursuit.,0.1882,0.5783,A,CI Keep,CI Revise,,Include,CI_Keep/Revise,False
+68,Consistency of Interest,DeepSeek,No-RAG,I am not easily sidetracked from my main objective.,0.1811,0.5476,A,CI Keep,CI Keep,,Include,CI_Keep/Keep,False
+73,Consistency of Interest,DeepSeek,No-RAG,It is rare for me to suddenly become uninterested in something I was passionate about.,0.1672,0.4916,C,CI Revise,,CI Keep,Include,CI_Revise/Keep,False
+74,Consistency of Interest,GPT-4o mini,RAG,I am easily swayed by the allure of new ideas.,0.1661,0.4701,A,CI Keep,CI Keep,,Include,CI_Keep/Keep,False
+75,Consistency of Interest,GPT-4o mini,RAG,I commonly feel the pull towards different passions.,0.1644,0.3048,B,,CI Keep,CI Keep,Include,CI_Keep/Keep,False
+77,Consistency of Interest,DeepSeek,No-RAG,I find myself consistently returning to the same types of interests.,0.1538,0.391,B,,CI Keep,CI Keep,Include,CI_Keep/Keep,False
+79,Consistency of Interest,DeepSeek,No-RAG,"My interests are deep, not fleeting.",0.1461,0.5783,C,CI Revise,,CI Revise,Include,CI_Revise/Revise,False
+86,Consistency of Interest,DeepSeek,No-RAG,I am reluctant to shift my main efforts from a successful path.,0.131,0.4933,B,,PE Keep,PE Revise,Include,PE_Revise/Keep,False
+89,Consistency of Interest,GPT-4o mini,RAG,I frequently chase after new interests.,0.1243,0.4583,C,CI Keep,,CI Keep,Include,CI_Keep/Keep,False

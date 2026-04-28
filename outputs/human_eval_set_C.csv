@@ -1,0 +1,30 @@
+set_item_num,Scale,Item_Text,Condition,disc_score
+1,Perseverance of Effort,I have the determination to push through setbacks.,deepseek × No-RAG,0.2276
+2,Perseverance of Effort,"I finish what I start, no matter the difficulties.",gpt × RAG,0.2167
+3,Perseverance of Effort,I can keep going even after several failures.,deepseek × No-RAG,0.1889
+4,Perseverance of Effort,Difficulty and adversity make me more determined to prove myself and succeed.,llama × No-RAG,0.1872
+5,Perseverance of Effort,I find it hard to continue when things don't go as planned.,gpt × RAG,0.1731
+6,Perseverance of Effort,"When I fail, I use it as an opportunity to learn and try again.",llama × No-RAG,0.1544
+7,Perseverance of Effort,I find it easy to get started but hard to finish.,deepseek × No-RAG,0.1536
+8,Perseverance of Effort,I maintain my effort even in the face of adversity.,gpt × RAG,0.1441
+9,Perseverance of Effort,Overcoming obstacles is what drives me to continue striving for excellence.,llama × No-RAG,0.1349
+10,Perseverance of Effort,"I try my best on every task, even if it fails.",deepseek × No-RAG,0.1298
+11,Perseverance of Effort,"I consistently put in effort, regardless of the outcome.",gpt × RAG,0.1281
+12,Perseverance of Effort,I let setbacks dictate my level of effort.,gpt × RAG,0.1234
+13,Perseverance of Effort,"When something is begun, I complete it, no matter what.",deepseek × No-RAG,0.1212
+14,Consistency of Interest,I tend not to change my main interest for a different one.,deepseek × No-RAG,0.2691
+15,Consistency of Interest,Devoting myself to a single cause is crucial for achieving success.,llama × No-RAG,0.2347
+16,Consistency of Interest,My primary interest usually absorbs my thoughts first.,deepseek × No-RAG,0.2323
+17,Consistency of Interest,I often find myself fully committed to a single goal.,llama × No-RAG,0.2185
+18,Consistency of Interest,My primary drive rarely gets tangled with other passing fascinations.,deepseek × No-RAG,0.2074
+19,Consistency of Interest,Pursuing one major goal at a time is my preferred approach.,llama × No-RAG,0.1918
+20,Consistency of Interest,I often feel the urge to shift to new projects.,gpt × RAG,0.1913
+21,Consistency of Interest,I avoid letting new ideas derail my primary goals.,deepseek × No-RAG,0.1885
+22,Consistency of Interest,A multitude of projects competing for my attention can be overwhelming.,llama × No-RAG,0.1776
+23,Consistency of Interest,"Once I choose a direction, I rarely change it.",gpt × RAG,0.1767
+24,Consistency of Interest,It is rare for me to suddenly become uninterested in something I was passionate about.,deepseek × No-RAG,0.1672
+25,Consistency of Interest,"My interests are deep, not fleeting.",deepseek × No-RAG,0.1461
+26,Consistency of Interest,Shifting priorities is not a problem for me.,llama × No-RAG,0.1408
+27,Consistency of Interest,I often feel drawn away from my current endeavors.,gpt × RAG,0.1366
+28,Consistency of Interest,My long-term ambitions are always clear to me.,deepseek × No-RAG,0.125
+29,Consistency of Interest,I frequently chase after new interests.,gpt × RAG,0.1243

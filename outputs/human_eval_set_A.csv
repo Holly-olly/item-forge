@@ -1,0 +1,31 @@
+set_item_num,Scale,Item_Text,Condition,disc_score
+1,Perseverance of Effort,I persevere through tough situations until I succeed.,gpt × RAG,0.2502
+2,Perseverance of Effort,"I finish tasks, even difficult ones, well.",deepseek × No-RAG,0.2351
+3,Perseverance of Effort,Setbacks and failures make me question my ability to succeed.,llama × No-RAG,0.2138
+4,Perseverance of Effort,"I can keep going, even when things are tough.",deepseek × No-RAG,0.208
+5,Perseverance of Effort,I keep pushing through even when I face challenges.,gpt × RAG,0.2032
+6,Perseverance of Effort,I am not afraid to take on difficult tasks and see them through to the end.,llama × No-RAG,0.1819
+7,Perseverance of Effort,I find pride in completing difficult tasks.,gpt × RAG,0.1661
+8,Perseverance of Effort,I do not feel strong enough to complete difficult tasks.,deepseek × No-RAG,0.1624
+9,Perseverance of Effort,When a task requires effort I see it through.,deepseek × No-RAG,0.1508
+10,Perseverance of Effort,When I encounter a problem I try to find a way around it and continue moving forward.,llama × No-RAG,0.1499
+11,Perseverance of Effort,I reconcile my efforts even when progress is slow.,gpt × RAG,0.1329
+12,Perseverance of Effort,I am determined to overcome hurdles in my work.,gpt × RAG,0.128
+13,Perseverance of Effort,I am able to maintain effort until the job is finished.,deepseek × No-RAG,0.1235
+14,Consistency of Interest,I resist the urge to frequently switch my primary focus.,deepseek × No-RAG,0.3089
+15,Consistency of Interest,I am intentional about developing a singular ambition.,gpt × RAG,0.2796
+16,Consistency of Interest,I am single-minded in my professional aspirations.,deepseek × No-RAG,0.2676
+17,Consistency of Interest,Constantly changing my focus helps keep my mind sharp.,llama × No-RAG,0.2443
+18,Consistency of Interest,My core interests rarely lose my attention.,deepseek × No-RAG,0.2284
+19,Consistency of Interest,Long-term dedication to a single pursuit can be suffocating.,llama × No-RAG,0.2266
+20,Consistency of Interest,I'm inclined to thoroughly explore one subject rather than skimming many.,llama × No-RAG,0.2105
+21,Consistency of Interest,My main ambition stays the consistent focus of my energy.,deepseek × No-RAG,0.2046
+22,Consistency of Interest,When working on a project I try to avoid distractions and stay focused.,llama × No-RAG,0.1917
+23,Consistency of Interest,I often feel like I can't settle on one pursuit.,gpt × RAG,0.1882
+24,Consistency of Interest,I am not easily sidetracked from my main objective.,deepseek × No-RAG,0.1811
+25,Consistency of Interest,The idea of dedicating years to one pursuit seems appealing to me.,llama × No-RAG,0.1689
+26,Consistency of Interest,I am easily swayed by the allure of new ideas.,gpt × RAG,0.1661
+27,Consistency of Interest,I prefer to delve deeply rather than pursue many things lightly.,deepseek × No-RAG,0.1635
+28,Consistency of Interest,I derive satisfaction from pursuing one interest deeply.,gpt × RAG,0.135
+29,Consistency of Interest,I am steadfast in the direction of my primary drive.,deepseek × No-RAG,0.1327
+30,Consistency of Interest,I'm not tempted by new opportunities when I'm mid-project.,llama × No-RAG,0.1323

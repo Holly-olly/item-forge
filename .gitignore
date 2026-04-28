@@ -43,6 +43,7 @@ results/
 results_export/
 nigel_scripts/
 
+
 # macOS
 .DS_Store
 Rplots.pdf
@@ -51,3 +52,15 @@ Rplots.pdf
 outputs/intermediate/
 *.pkl
 faiss_index/
+
+# Project-level Claude instructions (private)
+claude.md
+scratch.ipynb
+
+# Private raw data — not for publication
+*.xlsx
+outputs/form_set_A.md
+outputs/form_set_B.md
+outputs/form_set_C.md
+outputs/expert_assignments.md
+human_eval_all_decisions_4experts.csv

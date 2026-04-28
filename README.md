@@ -1,24 +1,22 @@
 # item-forge
 
-**LLM-based psychological scale item generation and in-silico validation**
-
-A construct-agnostic pipeline for generating and psychometrically validating psychological scale items using large language models. Demonstrated on the Grit scale (Duckworth et al., 2007).
+**LLM-based psychological scale item generation and in-silico validation** — 4 models × 3 retrieval conditions, dual psychometric validation (EFA + EGA), 89-item expert review.
 
 ---
 
-## What this is
+## Key Insights
 
-Scale development typically requires domain experts to write items by hand, with iteration cycles measured in months. This pipeline tests whether LLMs can replace or augment that process — and if so, **which models, under which retrieval conditions, produce psychometrically usable items**.
-
-**4 models × 3 retrieval conditions = 12 pools**, each validated independently by two psychometric methods before items reach human review.
+👉 LLMs can generate structurally valid item pools
+👉 Item quality is driven by semantic alignment, not surface features
+👉 Retrieval is model-dependent, not universally beneficial
+👉 Construct asymmetry matters: one subscale (PE) is stable, second one (CI) is ambiguous
+👉 Embedding-based metrics approximate expert judgment
 
 ---
 
-## Results
+## Results: LLM evaluation
 
-### Which conditions passed validation?
-
-Five of twelve conditions passed both EFA and EGA independently — meaning the generated item pools showed clear two-factor structure from two different analytic angles:
+Five of twelve conditions passed both EFA and EGA independently, meaning the generated item pools showed clear two-factor structure from two different analytic angles:
 
 | Model | Condition | EFA (DAAL%) | EGA (NMI%) | Verdict |
 |---|---|---|---|---|
@@ -32,56 +30,74 @@ Five of twelve conditions passed both EFA and EGA independently — meaning the 
 
 Full results for all 12 conditions: [`outputs/table1_master_results.csv`](outputs/table1_master_results.csv) · [`outputs/table2_method_agreement.csv`](outputs/table2_method_agreement.csv)
 
-### Three findings worth noting
+### Key findings
 
-**1. RAG helps DeepSeek and Llama; it hurts GPT and Gemini.**
-GPT performs best *without* retrieval (No-RAG: NMI 71.1%). Adding re-ranked context drops its NMI to 52.2% — a meaningful deterioration. Llama shows the opposite pattern: its best result is Re-Ranked RAG (NMI 69.2%). This means the value of a retrieval pipeline is model-dependent, not universal.
+**The value of retrieval is model-dependent.**
+GPT-4o mini performs best *without* retrieval (No-RAG: NMI 71.1%). Adding re-ranked context drops its NMI to 52.2% — a meaningful deterioration. Llama 3 shows the opposite: its best result is Re-Ranked RAG (NMI 69.2%). A retrieval pipeline is not universally beneficial.
 
-**2. Gemini is the consistent outlier.**
-Across all three conditions, Gemini produces the weakest EGA structure (NMI: 67.1 → 30.3 → 44.3). Its EFA pass rate in No-RAG is also the lowest (48.7%). This may reflect sensitivity to the two-factor prompt framing — an open question for follow-up.
+**Gemini is the consistent outlier.**
+Gemini is the weakest performer — EGA NMI 30.3% and EFA DAAL 50.7% in the RAG condition, the lowest across all tested models. This may reflect sensitivity to two-factor prompt framing — an open question for follow-up.
 
-**3. The two methods disagree more than expected.**
-Of 12 conditions, only 5 see agreement. The EFA–EGA split reveals that factor structure (EFA) and network community stability (EGA) capture different things: some pools look structurally clean in embedding space but produce unstable communities, and vice versa. This makes the dual-method filter more conservative — and more defensible — than either method alone.
-
-### Final item pool
-
-89 items passed both validation methods and entered human review: [`outputs/human_review_items.csv`](outputs/human_review_items.csv)
+**EFA and EGA disagree more than expected.**
+Of 12 conditions, only 5 produce agreement between methods. Factor structure (EFA) and network community stability (EGA) capture different things: pools that look structurally clean in embedding space can still produce unstable communities, and vice versa. The dual-method filter is more conservative — and more defensible — than either method alone.
 
 ---
 
-## Human evaluation design
+## Human evaluation
 
-The 89-item pool is undergoing content validity review by 3 domain experts using a blind factor assignment protocol.
+89 items — drawn from three of the five passing conditions (GPT-4o mini RAG, DeepSeek No-RAG, Llama 3 No-RAG) — entered blind expert review. Three domain experts rated each item on a 6-option scale (CI Keep / CI Revise / PE Keep / PE Revise / Both / Neither), with each item rated by exactly 2 experts.
 
-**Format:** Items are shown without subscale labels. Each expert makes one decision per item:
+### Key findings
 
-| Option | Meaning |
-|--------|---------|
-| CI — Keep | Measures Consistency of Interest; include as-is |
-| CI — Revise | Measures CI; wording needs improvement |
-| PE — Keep | Measures Perseverance of Effort; include as-is |
-| PE — Revise | Measures PE; wording needs improvement |
-| Both | Measures Grit generally; does not discriminate CI from PE |
-| Neither | Off-construct; remove |
+**Cosine similarity to the PE definition is the strongest predictor of whether an item is correctly classified, disagreed on, or rejected** — rater identity explains almost nothing. Items fail expert review for semantic reasons, not writing quality: readability, sentiment, and word length predict rejection at near-chance level (AUC ≈ 0.50), while cosine similarity to the construct definition alone reaches AUC = 0.68. This suggests embedding-based semantic measures can serve as a useful proxy for preliminary item screening.
 
-**Why blind assignment:** showing experts the intended subscale anchors them toward confirmation. Blind assignment tests whether items are face-valid enough to be correctly categorised — consistent with 2025 CVR benchmarks (82% correct construct assignment reported as the validity standard).
+**PE is more consistently identified than CI** in both embedding space and expert ratings. This may reflect sharper semantic boundaries around PE, but definition wording and embedding bias cannot be ruled out as contributing factors. The CI/PE boundary is asymmetric: items anchored near PE are reliably classified and retained; CI-anchored items produce higher disagreement and more Neither ratings.
 
-**Why one question per item:** selecting CI or PE already encodes both the construct assignment and the quality rating (Keep vs Revise). Selecting Both or Neither is the complete decision — no quality rating is meaningful for items that fail the assignment test.
+**Inter-rater agreement is fair to moderate** (mean κ = 0.35; range 0.22–0.44), below the threshold for substantive conclusions (Krippendorff α ≥ 0.667). Agreement patterns are consistent with item-level ambiguity rather than rater-specific tendencies — item content predicts agreement better than rater identity — but neither effect reached statistical significance (n = 89). Expert labels should be treated as noisy signal rather than definitive ground truth.
 
-**Set split:** 89 items split into 3 balanced sets (~30 each, stratified by subscale and generation condition). Each expert rates 2 sets (~60 items, ~25 min). Every item receives exactly 2 independent ratings.
+**Expert alignment with intended subscale**
 
-**Retention:** items kept if both raters assign the same subscale and at least one rates Keep or Revise. Items rated Both by both experts are preserved in a separate unidimensional pool for potential future use.
+| Expert | Match | Both | Neither | Mismatch |
+|--------|-------|------|---------|----------|
+| E1 | 78% | 8% | 12% | 2% |
+| E2 | 75% | 12% | 12% | 1% |
+| E3 | 71% | 12% | 15% | 2% |
 
-Full protocol: [`human_rate_report.md`](human_rate_report.md)
 
-## Construct: Grit
+**Include rate by model**
+The percentage of items from that model that both raters agreed on the same subscale (CI or PE)
+
+| Model | Included | Total | Include rate* |
+|-------|----------|-------|------|
+| DeepSeek | 25 | 36 | 69% |
+| GPT-4o mini | 15 | 27 | 56% |
+| Llama 3 | 10 | 26 | 38% |
+
+
+### Next steps
+
+The next phase of the project focuses on **improving measurement quality before expanding data collection**.
+
+Rather than relying on additional human annotation at the current stage, the pipeline will be extended with **an iterative generation and pre-screening loop**, where candidate items are evaluated automatically prior to expert review. This stage will combine semantic alignment measures (e.g., embedding-based similarity to construct definitions) with structural signals to identify items that are both construct-relevant and well-separated at the factor level.
+
+A key objective is to refine construct representation, particularly for Consistency of Interest (CI), which shows systematic ambiguity in both embedding space and human judgment. This involves restructuring how constructs are specified and operationalized during generation, rather than only tuning model parameters.
+
+Human evaluation will then be reintroduced on a higher-quality, pre-filtered item pool, enabling more reliable agreement and more efficient use of expert input. Participant-based validation will follow once item stability and construct clarity are established.
+
+This approach positions the framework not only as a generation pipeline, but as a **scalable system for construct-driven item development**, where automated semantic evaluation reduces reliance on early-stage human screening while preserving psychometric rigor.
+
+---
+
+## Why Grit is a hard test case
 
 | Subscale | Definition |
 |---|---|
 | **Consistency of Interest (CI)** | Maintaining focus on a single long-term ambition; resisting distraction from new interests |
 | **Perseverance of Effort (PE)** | Sustaining hard work through setbacks; finishing what is started |
 
-The two-factor structure is actively debated — some analyses favour a unidimensional solution, particularly when CI loadings are weak across samples (Credé et al., 2017). A pipeline that generates discriminating CI items is doing something non-trivial.
+The two-factor structure is actively debated — some analyses favour a unidimensional solution, particularly when CI loadings are weak across samples (Credé et al., 2017). A pipeline that generates discriminating CI items is doing something non-trivial. The asymmetry found in human review (PE reliably identified, CI ambiguous) mirrors this wider measurement challenge.
+
+The cosine similarity between the CI and PE construct definitions is 0.41, indicating moderate semantic overlap in embedding space — which sets a theoretical floor on how well any embedding-based method can discriminate between the two subscales.
 
 ---
 
@@ -101,7 +117,7 @@ Construct definition + factor structure
      └────────────┴──────────────────┘
                   │
        4 LLMs × 3 conditions = 12 pools
-       ~80 items generated per condition
+       40 items per subscale (~80 per condition)
                   │
        ┌──────────┴──────────┐
        ▼                     ▼
@@ -123,13 +139,13 @@ Construct definition + factor structure
 
 ## Limitations
 
-**Fixed prompt.** All 12 conditions use the same prompt. Model-specific tuning — persona framing, few-shot examples, output format constraints — is the most immediate lever for improvement and could shift results substantially.
+**Fixed prompt.** All 12 conditions use the same prompt. Model-specific tuning — persona framing, few-shot examples, output format constraints — is the most immediate lever for improvement.
 
-**Fixed temperature.** Lower values may reduce semantic diffuseness in models that produced cross-loading items. Temperature sensitivity is the next experiment.
+**Fixed temperature.** Lower values may reduce semantic diffuseness in models that produced cross-loading items.
 
-**Unidimensional framing untested.** Items were generated against the two-factor model throughout. Whether prompting for Grit as a unified construct produces better or worse pools is an open question with direct relevance to the ongoing CI/PE dimensionality debate.
+**Unidimensional framing untested.** Items were generated against the two-factor model throughout. Whether prompting for Grit as a unified construct produces better or worse pools is an open question.
 
-**Human review pending.** The 89-item pool has not yet been rated by domain experts. Psychometric properties reported here are in-silico only.
+**Tiebreaks pending.** 16 of 89 items remain unresolved — subscale conflict between two raters requires a third independent rating before final retention decisions.
 
 ---
 
